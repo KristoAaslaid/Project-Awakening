@@ -1,0 +1,775 @@
+﻿capital = 91
+army_experience = 50
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "SOV_1942_AIR_BBA"
+		set_technology = {
+			aa_lmg = 1
+			aa_hmg = 1
+			photo_reconnaisance = 1 
+	basic_large_airframe = 1 
+			aa_cannon_1 = 1
+			survivability_studies = 1
+			engines_1 = 1
+			engines_2 = 1
+			engines_3 = 1 
+			early_bombs = 1
+			aircraft_construction = 1
+			iw_small_airframe = 1
+			basic_small_airframe = 1
+			iw_medium_airframe = 1
+			basic_medium_airframe = 1
+			iw_large_airframe = 1
+			improved_small_airframe = 1
+}
+create_equipment_variant = {
+		name = "La-5"
+		type = small_plane_airframe_1
+		modules = {
+			fixed_main_weapon_slot = aircraft_cannon_1_1x
+			fixed_auxiliary_weapon_slot_1 = light_mg_2x
+			engine_type_slot = engine_3_1x
+			special_type_slot_1 = empty
+		}
+		icon = "GFX_SOV_fighter1_medium"
+	}
+create_equipment_variant = {
+		name = "Yak-7"
+		type = small_plane_airframe_1
+		modules = {
+			fixed_main_weapon_slot = aircraft_cannon_1_1x
+			fixed_auxiliary_weapon_slot_1 = heavy_mg_2x
+			engine_type_slot = engine_2_1x
+			special_type_slot_1 = empty
+		}
+		icon = "GFX_SOV_fighter2_medium"
+	}
+create_equipment_variant = {
+		name = "Il-2 1942"
+		type = small_plane_airframe_1
+		modules = {
+			fixed_main_weapon_slot = aircraft_cannon_1_1x
+			fixed_auxiliary_weapon_slot_1 = bomb_locks
+			engine_type_slot = engine_3_1x
+			special_type_slot_1 = empty
+			special_type_slot_2 = armor_plate_small
+			
+		}
+		icon = "gfx/interface/technologies/sov_il2_1942.dds"
+	}
+#create_equipment_variant = {
+#		name = "Il-2 1942"
+#		type = small_plane_cas_airframe_1
+#		modules = {
+#			fixed_main_weapon_slot = aircraft_cannon_1_1x
+#			fixed_auxiliary_weapon_slot_1 = bomb_locks
+#			engine_type_slot = engine_3_1x
+#			special_type_slot_1 = empty
+#			special_type_slot_2 = armor_plate_small
+#			
+#		}
+#		icon = "GFX_SOV_fighter2_medium"
+#	}
+create_equipment_variant = {
+			name = "Pe-2" 
+			type = medium_plane_fighter_airframe_1
+			modules = {
+				fixed_main_weapon_slot = light_mg_2x
+				fixed_auxiliary_weapon_slot_1 = medium_bomb_bay
+				engine_type_slot = engine_2_2x
+				special_type_slot_1 = empty
+				special_type_slot_2 = armor_plate_medium
+			}
+			icon = "GFX_SOV_heavy_fighter1_medium"
+		}
+
+create_equipment_variant = {
+		name = "Yak 9"
+		type = small_plane_airframe_2
+		modules = {
+			fixed_main_weapon_slot = aircraft_cannon_2_2x
+			fixed_auxiliary_weapon_slot_1 =	heavy_mg_1x
+			engine_type_slot = engine_3_1x
+			special_type_slot_1 = armor_plate_small
+		}
+		icon = "GFX_SOV_fighter3_medium"
+	}
+create_equipment_variant = {
+		name = "Po-2" #
+		type = small_plane_airframe_0
+		modules = {
+			fixed_main_weapon_slot = light_mg_4x
+			fixed_auxiliary_weapon_slot_1 = rocket_rails
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = recon_equipment
+		}
+	
+	}
+
+else = {
+		#set_air_oob = "SOV_1942_AIR_LEGACY"
+		set_technology = {
+		early_fighter = 1
+			cv_early_fighter = 1
+			cv_naval_bomber1 = 1
+			cv_CAS1 = 1
+			naval_bomber1 = 1
+			CAS1 = 1
+			fighter1 = 1
+			early_bomber = 1
+			tactical_bomber1 = 1
+			strategic_bomber1 = 1
+			CAS1 = 1
+			naval_bomber1 = 1
+			early_fighter = 1
+		cv_fighter1 = 1 
+		fighter2 = 1
+		fighter3 = 1
+		CAS2 = 1
+		CAS3 = 1
+		heavy_fighter1 = 1
+		heavy_fighter2 = 1 
+		heavy_fighter3 = 1 
+		scout_plane1 = 1
+		tactical_bomber1 = 1
+		tactical_bomber2 = 1
+		strategic_bomber1 = 1 
+		}
+	}
+}
+starting_train_buffer = 3.0
+
+oob = "SOV_1942" 
+set_country_flag = routine_engagement_selected
+set_country_flag = stalingrad_devastated
+add_manpower = 725000
+set_fuel = 2000000
+add_offsite_building = { type = arms_factory level = 4
+	 }
+add_offsite_building = { type = industrial_complex level = 10
+	 }
+1942.9.8  = { 
+starting_train_buffer = 3.0
+add_political_power = 535
+oob = "SOV_EATG"
+set_convoys = 52
+set_country_flag = locally_significant_selected 
+	add_command_power = 200
+#focuses up to 8th september
+	add_threat = 3
+	add_offsite_building = { type = arms_factory level = 4
+			}
+add_equipment_to_stockpile = {
+    type = CAS_equipment_2
+    amount = 100
+    producer = SOV
+}
+58 = { 	add_dynamic_modifier = { modifier = devastation } }
+	205 = { add_dynamic_modifier = { modifier = devastation } }
+	190 = {	add_dynamic_modifier = { modifier = devastation } }
+	69 = { 	add_dynamic_modifier = { modifier = devastation } }
+	88 = {  	add_dynamic_modifier = { modifier = devastation } }		
+	57 = { 	add_dynamic_modifier = { modifier = devastation } }
+	89 = { 	add_dynamic_modifier = { modifier = devastation } }
+	21 = { 	add_dynamic_modifier = { modifier = devastation } }
+	18 = {  	add_dynamic_modifier = { modifier = devastation } }
+	13 = { 	add_dynamic_modifier = { modifier = devastation } }
+	56 = {	add_dynamic_modifier = { modifier = devastation } }
+	12 = { 	add_dynamic_modifier = { modifier = devastation } }
+	# OOB is most important
+set_province_controller = 534
+set_province_controller = 8134
+set_province_controller = 5222
+set_province_controller = 8150
+set_province_controller = 6036
+set_province_controller = 7221
+set_province_controller = 2059
+set_province_controller = 4171
+set_province_controller = 6905
+set_province_controller = 5483
+set_province_controller = 4331
+#focuses up to 8th september
+	complete_national_focus = SOV_issue_order_no_227 #2
+complete_national_focus = SOV_no_retreat_no_evacuation #7
+complete_national_focus =SOV_issue_order_no_270 #3 
+complete_national_focus = SOV_stalingrad_defence_committee #7
+complete_national_focus = SOV_mobilise_the_workers_columns #3
+complete_national_focus = SOV_every_man_woman_and_child #7
+complete_national_focus = SOV_reinforce_stalingrad # 4
+complete_national_focus = SOV_establish_the_penal_battalions #3
+complete_national_focus = SOV_heroic_propaganda # 2
+complete_national_focus = SOV_enlist_the_red_navy # 3
+complete_national_focus = SOV_1077th_antiaircraft_regiment # 3
+	complete_national_focus = SOV_reallocate_air_units #3
+###48 days total
+add_ideas = { volunteer_only }
+set_country_flag = volunteer_only_selected
+add_ideas = { hunger_crisis low_economic_mobilisation }
+swap_ideas = {
+    remove_idea = SOV_demoralised
+    add_idea = SOV_morale_recovering
+}
+
+
+}
+#1942.7.23 = { 
+#set_province_controller = 522
+#set_province_controller = 6834
+#set_province_controller = 3396
+#set_province_controller = 2781
+#set_province_controller = 7636
+#set_province_controller = 16
+#} 
+set_research_slots = 2
+set_stability = 0.3
+set_war_support = 0.5
+
+add_political_power = 250
+
+set_technology = {
+
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	motorized_rocket_unit = 1
+	interwar_artillery = 1
+	artillery2 = 1
+	artillery1 = 1
+	improved_infantry_weapons = 1
+	improved_infantry_weapons_2 = 1
+	support_weapons = 1
+	support_weapons2 = 1
+	support_weapons3 = 1
+	tech_recon = 1
+	tech_recon2 = 1
+	tech_support = 1	
+	tech_engineers = 1
+	tech_engineers2 = 1
+	tech_maintenance_company = 1
+	tech_maintenance_company2 = 1
+	rocket_artillery = 1
+	tech_field_hospital = 1
+	tech_field_hospital2 = 1
+	tech_mountaineers = 1
+	paratroopers = 1
+	marines = 1
+	tech_military_police = 1
+	tech_military_police = 2
+	tech_signal_company = 1
+	tech_signal_company2 = 1
+	tech_logistics_company = 1
+	tech_logistics_company2 = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	basic_train = 1
+	interwar_antiair = 1
+	tech_special_forces = 1
+	
+	pocket_defence = 1
+	defence_in_depth = 1
+	
+	interwar_antitank = 1
+	antitank1 = 1
+	antitank2 = 1
+	mass_assault = 1
+	trade_interdiction = 1
+	formation_flying = 1
+	synth_oil_experiments = 1
+	fuel_silos = 1
+	mechanised_infantry = 1
+	mechanised_infantry2 = 1 
+	fuel_refining = 1
+	fuel_refining2 = 1
+	basic_machine_tools = 1
+	improved_machine_tools = 1
+	advanced_machine_tools = 1
+	concentrated_industry = 1
+	concentrated_industry2 = 1
+	construction1 = 1
+	construction2 = 1
+	stalingrad_rivercrossing_debuffs = 1	
+	construction3 = 1
+	electronic_mechanical_engineering = 1
+	radio = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	improved_computing_machine = 1
+}
+	
+1942.11.24 = { ##KESSEL START DATE!
+			oob = "SOV_KESSEL"
+	set_convoys = 120
+	add_threat = 100
+	set_country_flag = locally_significant_selected
+	set_country_flag = strategic_interest_selected
+	set_country_flag = campaign_defining_selected
+set_country_flag = local_importance_selected
+set_country_flag = regional_importance_selected
+set_country_flag = propaganda_effort_selected
+set_country_flag = extensive_propaganda_selected
+set_country_flag = nationally_symbolic_selected
+
+
+	add_offsite_building = { type = arms_factory level = 10} 
+	add_offsite_building = { type = industrial_complex = 10}
+	complete_national_focus = SOV_appoint_georgy_zhukov # 2
+	complete_national_focus = SOV_rigid_defense # 3
+	complete_national_focus = SOV_reappoint_frontline_commanders # 5
+	complete_national_focus = SOV_improve_stalingrad_front_medical_services # 7
+	complete_national_focus = SOV_the_fiftyyard_rule # 3
+	complete_national_focus = SOV_stalingrad_academy_of_street_fighting # 3
+	complete_national_focus = SOV_maskirovka # 5
+	complete_national_focus = SOV_lengthen_the_battlefield # 6
+	complete_national_focus = SOV_publish_the_army_newspaper # 3
+	complete_national_focus = SOV_increase_the_vodka_ration # 5
+	complete_national_focus = SOV_secure_the_crossings # 3
+	complete_national_focus = SOV_time_is_blood # 7
+	complete_national_focus = SOV_mandate_civillian_evacuation # 3
+	complete_national_focus = SOV_return_command_to_the_officers # 7 
+	complete_national_focus = SOV_operation_uranus # 2
+	complete_national_focus = SOV_no_land_behind_the_volga #7
+	complete_national_focus = SOV_fortify_key_positions
+	
+			#69 days total. #UPDATED 4 to lose. (
+####124 days between start and this date. 75 days in total between september start and this one. 
+	set_province_controller = 8317
+set_province_controller = 8312
+set_province_controller = 8307
+set_province_controller = 3547
+set_province_controller = 8294
+set_province_controller = 7117
+set_province_controller = 7225
+set_province_controller = 7281
+set_province_controller = 8287 
+set_province_controller = 8280 
+set_province_controller = 8271 
+set_province_controller = 5933
+set_province_controller = 8256
+set_province_controller = 8261 
+set_province_controller = 8308
+set_province_controller = 8291
+set_province_controller = 5835
+set_province_controller = 8287
+set_province_controller = 8294
+set_province_controller = 8445
+set_province_controller = 8429
+set_province_controller = 1788
+set_province_controller = 7
+set_province_controller = 8549
+set_province_controller = 7227
+set_province_controller = 8533
+set_province_controller = 5061
+set_province_controller = 7277
+set_province_controller = 8199
+set_province_controller = 4599
+set_province_controller = 8171 
+set_province_controller = 1493
+set_province_controller = 5005
+set_province_controller = 6059 
+set_province_controller = 7797
+set_province_controller = 6659
+set_province_controller = 2053
+set_province_controller = 2070
+set_province_controller = 7976 
+set_province_controller = 1484 
+set_province_controller = 1487 
+set_province_controller = 6286
+set_province_controller = 7824
+set_province_controller = 686
+set_province_controller = 7829
+set_province_controller = 2197
+set_province_controller = 5253
+set_province_controller = 647
+set_province_controller = 7049
+set_province_controller = 975
+set_province_controller = 645
+set_province_controller = 1486
+set_province_controller = 7783
+set_province_controller = 2933
+set_province_controller = 16
+set_province_controller = 2781
+set_province_controller = 1767
+set_province_controller = 6834
+set_province_controller = 2636
+set_province_controller = 3396
+set_province_controller = 522
+set_province_controller = 8320
+set_province_controller = 4342
+set_province_controller = 8352
+set_province_controller = 4925
+set_province_controller = 2412
+set_province_controller = 8777
+set_province_controller = 1593
+set_province_controller = 1314
+set_province_controller = 5304
+set_province_controller = 7255
+set_province_controller = 8325
+set_province_controller = 4415
+set_province_controller = 2358
+set_province_controller = 5542
+set_province_controller = 5178
+set_province_controller = 6450
+set_province_controller = 2922
+set_province_controller = 409
+set_province_controller = 134
+set_province_controller = 3568
+set_province_controller = 6314
+set_province_controller = 429
+set_province_controller = 6907
+set_province_controller = 700
+set_province_controller = 4485
+set_province_controller = 2855
+set_province_controller = 8018  
+remove_ideas = { vasily_gordov supply_problems people_angry furious_defence reinforcements_dispatched SOV_morale_recovering growing_initiative }
+add_ideas = { SOV_morale_recovered all_adults_serve war_economy export_focus ia_petrov stalin_advisor nikita_khrushchyov andrey_yeryomenko vasily_chuikov}
+		}  
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+
+
+set_convoys = 2
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1933.7.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	
+	communism = 100
+}
+
+create_faction = stalingrad_front
+add_to_faction = SOV
+
+
+
+recruit_character = SOV_iosif_stalin 
+recruit_character = SOV_georgy_zhukov
+recruit_character = SOV_konstantin_rokossovsky
+recruit_character = SOV_kirill_moskalenko
+recruit_character = SOV_nikolay_voronov
+recruit_character = SOV_fyodor_tolbhukin
+recruit_character = SOV_vasily_gordov
+recruit_character = SOV_mikhail_shumilov
+recruit_character = SOV_aleksandr_vasilevsky
+recruit_character = SOV_ivan_chistyakov
+recruit_character = SOV_ivan_konev
+recruit_character = SOV_semyon_timoshenko
+recruit_character = SOV_andrey_yeryomenko
+recruit_character = SOV_vladimir_kolpachki
+recruit_character = SOV_vasily_chuykov
+recruit_character = SOV_stepan_krasovsky
+recruit_character = SOV_konstantin_vershinin
+recruit_character = SOV_sergey_rudenko
+recruit_character = SOV_aleksandr_novikov
+recruit_character = SOV_timofey_khryukin
+recruit_character = SOV_mikhail_kalinin
+recruit_character = SOV_nikita_khrushchyov
+recruit_character = SOV_nikolay_voznesensky
+recruit_character = SOV_lazar_kaganovich
+recruit_character = SOV_lavrenty_beriya 
+recruit_character = SOV_vsevolod_merkulov
+recruit_character = SOV_vyacheslav_molotov
+recruit_character = SOV_konstantin_rodzayevsky
+recruit_character = SOV_alexey_zhadov
+recruit_character = SOV_aleksandr_kerensky
+recruit_character = SOV_prokofy_romanenko
+recruit_character = SOV_pavel_batov
+recruit_character = SOV_pavel_zhigarev
+recruit_character = SOV_sergey_khudyakov
+recruit_character = SOV_rodion_malinovsky
+recruit_character = SOV_dmitry_ryabyshev
+recruit_character = SOV_ivan_galanin
+recruit_character = SOV_ia_petrov
+recruit_character = SOV_dmitry_kozlov
+recruit_character = SOV_vasilli_kriuchenkin
+recruit_character = SOV_nikolai_trufanov
+recruit_character = SOV_dmitry_lelyushenko
+add_ideas = {
+		disarmed_nation
+		SOV_politicised_army
+		SOV_demoralised
+		war_of_annihilation
+		SOV_devoted_stalinist
+		civilian_economy
+		stalingrad_tractor_factory
+		yakovlev_design_bureau
+		timofey_khryukin
+		vasily_gordov
+	}
+
+
+#create_field_marshal = { # THE BIG MAN, ADDED IF U APPOINT HIM AS MARSHAL
+#	name = "Georgy Zhukov"
+#	id = 410
+#		picture = "Portrait_Soviet_Gregory_Zhukov.dds"
+#	traits = { winter_specialist armor_officer media_personality war_hero }
+#	skill = 6
+#
+#	
+#	attack_skill = 6
+#	defense_skill = 2
+#	planning_skill = 5
+#	logistics_skill = 5
+#}
+
+#create_corps_commander = { ### DON FRONT, COMES IN DURING URANUS/SATURN
+#	name = "Konstantin Rokossovsky"
+#	id = 402
+#		picture = "Portrait_Soviet_Konstantin_Rokossovsky.dds"
+#	traits = {  armor_officer trait_cautious brilliant_strategist }
+#	skill = 4
+#	
+#	attack_skill = 3
+#	defense_skill = 4
+#	planning_skill = 2
+#	logistics_skill = 4
+#}
+
+
+
+
+
+#create_corps_commander = { #SOUTHWESTERN FRONT, COMES AFTER LITTLE SATURN
+#	name = "Nikolai Vatutin"
+#		picture = "Portrait_Soviet_Nikolai_Fyodorovich_Vatutin.dds"
+#	traits = { infantry_officer trait_reckless }
+#	skill = 3
+#	
+#	attack_skill = 1
+#	defense_skill = 3
+#	planning_skill = 3
+#	logistics_skill = 3
+#}
+
+#create_field_marshal = { # A POSSIBLE REPLACE FOR ZHUKOV AS STAVKA REP FOR STALINGRAD FRONT
+#	name = "Ivan Konev"
+#	id = 408
+#		picture = "Portrait_Soviet_Ivan_Konev.dds"
+#	traits = { armor_officer harsh_leader politically_connected }
+##	skill = 5
+#
+##
+#	
+#	attack_skill = 4
+##	defense_skill = 5
+#	planning_skill = 2
+#	logistics_skill = 5
+#}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Alexander Radó"
+		GFX = GFX_portrait_alexander_rado
+		traits = { operative_natural_orator }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SOV HUN }
+	}
+
+	create_operative_leader = {
+		name = "Kim Philby"
+		GFX = GFX_portrait_kim_philby
+		traits = { operative_double_agent operative_infiltrator }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SOV ENG }
+	}
+	create_operative_leader = {
+		name = "Richard Sorge"
+		GFX = GFX_portrait_richard_sorge
+		traits = { operative_well_groomed }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SOV GER }
+	}
+}
+
+### VARIANTS ###
+
+if = {
+		limit = {
+			has_dlc = "No Step Back"
+		}
+			create_equipment_variant = {
+		name = "T-60"
+		type = light_tank_chassis_2
+		parent_version = 1
+		modules = {
+			main_armament_slot = tank_auto_cannon
+			turret_type_slot = tank_light_one_man_tank_turret
+			suspension_type_slot = tank_torsion_bar_suspension
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_diesel_engine
+			special_type_slot_1 = empty
+			special_type_slot_2 = empty
+			special_type_slot_3 = empty
+			special_type_slot_4 = empty
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 4
+			tank_nsb_armor_upgrade = 3
+		}
+		icon = "gfx/interface/technologies/SOV_t60.dds"
+	}
+	create_equipment_variant = {
+		name = "T-34 Model 1943"
+		type = medium_tank_chassis_2
+		parent_version = 1
+		modules = {
+			main_armament_slot = tank_medium_cannon
+			turret_type_slot = tank_medium_two_man_tank_turret
+			suspension_type_slot = tank_torsion_bar_suspension
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_diesel_engine
+			special_type_slot_1 = sloped_armor
+			special_type_slot_2 = empty
+			special_type_slot_3 = empty
+			special_type_slot_4 = empty
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 6
+			tank_nsb_armor_upgrade = 6
+		}
+		icon = "gfx/interface/technologies/SOV_imp_main_tank.dds"
+	}
+create_equipment_variant = {
+			name = "Matilda II"
+			type = heavy_tank_chassis_1
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_small_cannon_2
+				turret_type_slot = tank_heavy_three_man_tank_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_cast_armor
+				engine_type_slot = tank_diesel_engine
+				special_type_slot_1 = tank_radio_1
+				special_type_slot_2 = smoke_launchers
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 4
+				tank_nsb_armor_upgrade = 8
+			}
+			icon = "gfx/interface/technologies/SOV_MATILDA_LL.dds"
+		}
+
+	create_equipment_variant = {
+		name = "KV-1 'Ekhranami'"
+		type = heavy_tank_chassis_1
+		parent_version = 1
+		modules = {
+			main_armament_slot = tank_medium_cannon
+			turret_type_slot = tank_medium_three_man_tank_turret
+			suspension_type_slot = tank_torsion_bar_suspension
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_diesel_engine
+			special_type_slot_1 = empty
+			special_type_slot_2 = empty
+			special_type_slot_3 = empty
+			special_type_slot_4 = empty
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 6
+			tank_nsb_armor_upgrade = 5
+		}
+		icon = "gfx/interface/technologies/SOV_imp_heavy_tank.dds"
+	}
+create_equipment_variant = {
+		name = "T-70"
+		type = light_tank_chassis_2
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_small_cannon_2
+			turret_type_slot = tank_light_one_man_tank_turret
+			suspension_type_slot = tank_torsion_bar_suspension
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_diesel_engine
+			special_type_slot_1 = sloped_armor
+			special_type_slot_2 = empty
+			special_type_slot_3 = empty
+			special_type_slot_4 = empty
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 7
+			tank_nsb_armor_upgrade = 5
+		}
+		icon = "gfx/interface/technologies/SOV_t70.dds"
+	}
+
+		set_technology = { 
+			gwtank_chassis = 1
+			basic_light_tank_chassis = 1
+			improved_light_tank_chassis = 1
+			basic_medium_tank_chassis = 1
+			improved_medium_tank_chassis = 1
+			basic_heavy_tank_chassis = 1
+			improved_light_tank_chassis = 1
+			armor_tech_1 = 1
+			engine_tech_1 = 1
+			engine_tech_2 = 1 
+			}
+	}
+if = {
+		limit = {
+			NOT = { has_dlc = "No Step Back" }
+		}
+	set_technology = { basic_light_tank = 1
+	improved_light_tank = 1
+	basic_heavy_tank = 1
+	improved_medium_tank = 1
+	basic_medium_tank = 1  
+	gwtank = 1
+	improved_heavy_tank = 1
+}
+create_equipment_variant = {
+	name = "T-34 Model 1943"
+	type = medium_tank_equipment_2
+	upgrades = {
+		tank_armor_upgrade = 4
+		tank_gun_upgrade = 1
+		tank_engine_upgrade = 2
+		tank_reliability_upgrade = 3
+	}
+	obsolete = no
+}
+create_equipment_variant = {
+	name = "KV-1 'Ekhranami'"
+	type = heavy_tank_equipment_2
+	upgrades = {
+		tank_armor_upgrade = 3
+		tank_gun_upgrade = 1
+		tank_engine_upgrade = 0
+		tank_reliability_upgrade = 2
+	}
+	obsolete = no
+}
+		
+}
