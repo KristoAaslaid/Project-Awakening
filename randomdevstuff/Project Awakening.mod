@@ -1,3 +1,11 @@
+name="Project Awakening"
+path="D:/Documents/Paradox Interactive/Hearts of Iron IV/mod/Project Awakening"
+replace_path="history/countries"
+replace_path="history/states"
+replace_path="map/strategicregions"
+replace_path="map/supplyareas"
+replace_path="common/countries"
+replace_path="common/on_actions"
 version="1.13.*"
 tags={
 	"Events"
@@ -8,5 +16,4 @@ tags={
 	"Military"
 	"Map"
 }
-name="Project Awakening"
 supported_version="1.13.1"
