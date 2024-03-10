@@ -1,1 +1,1 @@
-﻿capital = 1
+capital = 1
