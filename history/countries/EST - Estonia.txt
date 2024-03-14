@@ -1,1 +1,18 @@
-capital = 1
+capital = 21
+oob = "EST_1936"
+
+if = {
+	limit = {
+		has_dlc = "Arms Against Tyranny"
+	}
+	store_core_states_on_game_start = yes
+}
+
+set_research_slots = 3
+add_ideas = {
+	limited_conscription
+}
+
+recruit_character = EST_konstantin_pats
+
+set_convoys = 5

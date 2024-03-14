@@ -1,0 +1,27 @@
+state = {
+	id = 6
+	name = "STATE_6"
+	provinces = {
+		1626
+		890
+		8
+		1907
+		2214
+		334
+		483
+		70
+		1358
+		1393
+		1795
+		2221
+		1240
+		2226
+		1349
+		420
+		794
+		340
+	}
+	buildings_max_level_factor = 1
+	manpower = 1
+	state_category = town
+}

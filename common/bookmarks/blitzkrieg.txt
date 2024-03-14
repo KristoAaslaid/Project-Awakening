@@ -1,0 +1,30 @@
+bookmarks = {
+	bookmark = {
+		name = "BLITZKRIEG_NAME"
+		desc = "BLITZKRIEG_DESC"
+		date = 1939.8.14.12
+		picture = "GFX_select_date_1939"
+		default_country = "EST"
+	
+
+		
+		"EST"={
+			history = "EST_BLITZKRIEG_DESC"
+			ideology = neutrality
+			ideas = {
+				EST_ismaaliit_idea
+				EST_national_council_idea
+				EST_exploit_the_banks_idea
+			}
+			focuses = {
+				EST_forest_brothers
+				EST_formalize_baltic_entente
+				BALTIC_united_baltic_ssr
+			}
+		}
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

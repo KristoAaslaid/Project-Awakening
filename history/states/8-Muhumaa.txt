@@ -1,0 +1,16 @@
+state = {
+	id = 8
+	name = "STATE_8"
+	provinces = {
+		1101
+		1275
+		1310
+		1904
+		2021
+		2366
+		2369
+	}
+	buildings_max_level_factor = 1
+	manpower = 1
+	state_category = town
+}
