@@ -10,18 +10,6 @@ every_possible_country = {
 		NOT = {
 			has_allowed_idea_with_traits = { idea = communist_revolutionary characters = yes }
 		}
-		if = {
-			limit = { has_dlc = "Battle for the Bosporus" }
-			NOT = { tag = TUR tag = GRE }
-		}
-		if = {
-			limit = { has_dlc = "By Blood Alone" }
-			NOT = { OR = { tag = ETH tag = SWI } }
-		}
-		if = {
-			limit = { has_dlc = "Arms Against Tyranny" }
-			NOT = { OR = { tag = ICE tag = DEN tag = SWE tag = NOR } }
-		}
 	}
 	generate_character = {
 		token_base = generic_communist_revolutionary # token will be TAG_token_base
@@ -34,7 +22,6 @@ every_possible_country = {
 						original_tag = NZL
 						has_dlc = "Together for Victory"
 					}
-					has_completed_focus = NZL_the_lee_affair
 				}
 				if = {
 					limit = { has_dlc = "Man the Guns" }	
@@ -81,10 +68,6 @@ every_possible_country = {
 					limit = { 
 						original_tag = NZL
 						has_dlc = "Together for Victory"
-					}
-					OR = {
-						has_completed_focus = NZL_strengthen_the_commonwealth
-						has_completed_focus = NZL_constitution_amendment_act
 					}
 				}
 				if = {
@@ -133,7 +116,6 @@ every_possible_country = {
 						original_tag = NZL
 						has_dlc = "Together for Victory"
 					}
-					has_completed_focus = NZL_in_the_darkness
 				}
 				if = {
 					limit = { has_dlc = "Man the Guns" }	

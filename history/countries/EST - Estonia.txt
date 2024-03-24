@@ -16,3 +16,16 @@ add_ideas = {
 recruit_character = EST_konstantin_pats
 
 set_convoys = 5
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1932.5.21"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 20
+	fascism = 15
+	communism = 5
+	neutrality = 60
+}

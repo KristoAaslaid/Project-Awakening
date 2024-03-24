@@ -77,15 +77,16 @@ state = {
 	buildings_max_level_factor = 1
 	manpower = 30000
 	state_category = town
-
-	history={
+	history = {
 		owner = EST
 		add_core_of = EST
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
 		}
-		victory_points = { #Kuressaare
-			2202 20
+		victory_points = {
+			2202
+			20
 		}
+	}
 }

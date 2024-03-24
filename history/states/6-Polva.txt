@@ -24,4 +24,8 @@ state = {
 	buildings_max_level_factor = 1
 	manpower = 1
 	state_category = town
+	history = {
+		owner = EST
+		add_core_of = EST
+	}
 }

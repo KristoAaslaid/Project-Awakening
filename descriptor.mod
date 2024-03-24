@@ -58,5 +58,5 @@ replace_path="history/general"
 replace_path="map/strategicregions"
 replace_path="map/supplyareas"
 
-supported_version="1.13.7"
+supported_version="1.14.2"
 path="mod/Project Awakening"
