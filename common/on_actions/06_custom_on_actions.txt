@@ -1,0 +1,19 @@
+on_actions = {
+    on_startup = {
+        effect = {
+			EST = {
+				country_event = {
+					id = EST_events.1
+				}
+			}
+		}
+        effect = {
+            EST = {
+                country_event = {
+                    id = EST_events.2
+                    days = 9
+                }
+            }
+        }
+    }
+}
