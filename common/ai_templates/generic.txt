@@ -16,21 +16,6 @@ armor_generic = {
 	upgrade_prio = {
 		factor = 2.17
 
-		modifier = {
-			factor = 7
-			OR = {
-				has_tech = basic_medium_tank
-				has_tech = basic_medium_tank_chassis
-			}
-		}
-		
-		modifier = {
-			factor = 2
-			OR = {
-				has_tech = main_battle_tank
-				has_tech = main_battle_tank_chassis
-			}
-		}
 	}
 	
 	match_to_count = 0.5
@@ -230,13 +215,7 @@ armor_generic = {
 		upgrade_prio = {
 			factor = 2
 
-			modifier = {
-				factor = 4
-				OR = {
-					has_tech = basic_medium_tank
-					has_tech = basic_medium_tank_chassis
-				}
-			}
+
 		}
 		
 		target_width = 17.0
@@ -325,10 +304,6 @@ armor_generic = {
 		upgrade_prio = {
 			factor = 2
 
-			modifier = {
-				factor = 4
-				has_tech = armored_car1
-			}
 		}
 		
 		target_width = 17.0
@@ -1131,17 +1106,7 @@ marines_generic = {
 	
 		upgrade_prio = {
 			factor = 2
-
-			modifier = {
-				factor = 0
-				NOT = {
-					has_tech = amphibious_tank
-					has_tech = amphibious_mechanized_infantry
-				}
-				NOT = {
-					has_tech = amphibious_tank_chassis
-				}
-			}
+			
 			modifier = {
 				is_major = no
 				factor = 0
@@ -1237,12 +1202,6 @@ paratrooper_generic = {
 	upgrade_prio = {
 		factor = 2
 
-		modifier = {
-			factor = 0
-			NOT = {
-				has_tech = paratroopers
-			}
-		}
 	}
 	
 	match_to_count = 0.45
