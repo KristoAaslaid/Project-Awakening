@@ -47,5 +47,37 @@ on_actions = {
                 }
             }
         }
+        effect = {
+            EST = {
+                country_event = {
+                    id = EST_events.7
+                    days = 49
+                }
+            }
+        }
+        effect = {
+            EST = {
+                country_event = { #2/3
+                    id = EST_events.8
+                    days = 50
+                }
+            }
+        }
+        effect = {
+            EST = {
+                country_event = { #Vastupealetung
+                    id = EST_events.9
+                    days = 54
+                }
+            }
+        }
+        effect = {
+            EST = {
+                country_event = { #Vastupealetung
+                    id = EST_events.10
+                    days = 67
+                }
+            }
+        }
     }
 }

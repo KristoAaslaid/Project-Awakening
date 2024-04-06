@@ -23,3 +23,19 @@
   EST_events.6.title:0 "Johan Laidoner Ülemjuhatajaks, Mobilisatsioon." 
   EST_events.6.desc:0 "23.dets 1918 loodi Eesti Sõjavägede Ülemjuhataja ametikoht, kelleks nimetati polkovnik Johan Laidoner. Johan Laidoner kasutas sõjaväe juhtimisel ainujuhtimise printsiipi ja tänu sellele lõi ta efektiivse juhtimisstruktuuri, mis abistas Eesti sõjaväe plaanide läbiviimises. \nSamal päeval toimus ka mobilisatsioon, mis 5.jan 1919 tõi kokku Eesti kaitsejõududesse 13 500 meest." 
   EST_events.6.opt:0 "Eesti kaitseks!"
+  #Vabatahtlikud
+  EST_events.7.title:0 "Teiste riikide vabatahtlikud jõuavad Tallinnasse." 
+  EST_events.7.desc:0 "30.dets 1918 jõudsid esimesed Soome vabatahtlikud Tallinna, nende juhiks oli Martin Ekström. \nUmbes samal ajal moodustusid kohalikud baltisakslased Balti pataljoni Konstantin Weissi juhtimisel. Need kaks vabatahtlike väge olid ainult esimesed, mis jõuavad Eesti vägede koosseisu ja toetavad Eestit oma vabadussõjas. Peale nende ühinevad veel Ingeri, Läti, Rootsi ja Taani vabatahtlikud ning Eesti väed moodustavad lepingu ka veel Valgekaartlastega, Vene Keisririigi sõjaväe järgi jääva osaga." 
+  EST_events.7.opt:0 "Abi on alati teretulnud."
+  #2/3 vallutatud
+  EST_events.8.title:0 "Punaarmee on vallutanud enamus Eestit." 
+  EST_events.8.desc:0 "31.dets 1918 oli Nõukogude Punaarmee juba vallutanud 2/3 Eesti territooriumist ja ähvardab vabadussõja lõpetada Eesti iseseisvuse kaotamisega. Eesti väed olid aga selle ajaga massiivselt suurenenud ning paremini relvastanud ning suutnud Punaarmee pealetungi peatada enne kui nad Tallinna suudavad ära vallutada." 
+  EST_events.8.opt:0 "Me peame nad peatama!"
+  #Vastupealetung
+  EST_events.9.title:0 "Eesti vägede vastupealetung." 
+  EST_events.9.desc:0 "4.jan 1919, peale Punaarmee peatumist enne Tallinnat Valkla, Priske ja Kehra lahingutega, alustas Eesti sõjavägi üldist vastupealetungi eesmärgiga Nõukogude Venemaa Eesti territooriumilt välja tõrjuda. Algas Eesti vabastamine Punaarmee kätest." 
+  EST_events.9.opt:0 "Saadame nad tagasi Petrogradi."
+  #Utria
+  EST_events.10.title:0 "Utria Dessant." 
+  EST_events.10.desc:0 "17.jan 1919 alustatud ja 19.jan 1919 lõppenud Utria Dessant oli Eesti Vabadussõja ajal kõige suurim meredessant operatsioon. Selle operatsiooniga loodi eeldused Narva vallutamisele ja loodi sillapea Nõukogude Punaarmee tagalasse, mis sundis Punaarmee taganema. Utria dessant oli Eesti vägedele edukas ja selle sai ainult teha tänu Briti laevastiku abile, mis andis Eestile Venemaa käest võetud sõjalaevad selle dessandi tegemiseks."
+  EST_events.10.opt:0 "Eesti Meri jääb meie kätte!"

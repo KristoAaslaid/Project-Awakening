@@ -135,3 +135,91 @@ country_event = { #Laidoner ja Mobilisatsioon
         add_political_power = 10
     }
 }
+country_event = { #Vabatahtlikud
+    id = EST_events.7
+    title = EST_events.7.title
+    desc = EST_events.7.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.7.opt
+        ai_chance = { factor = 100 }
+        add_political_power = 10
+    }
+}
+country_event = { #2/3
+    id = EST_events.8
+    title = EST_events.8.title
+    desc = EST_events.8.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.8.opt
+        ai_chance = { factor = 100 }
+        add_political_power = 10
+    }
+}
+country_event = { #Vastupealetung
+    id = EST_events.9
+    title = EST_events.9.title
+    desc = EST_events.9.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.9.opt
+        ai_chance = { factor = 100 }
+        add_political_power = 10
+    }
+}
+country_event = { #Utria Dessant
+    id = EST_events.10
+    title = EST_events.10.title
+    desc = EST_events.10.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.10.opt
+        ai_chance = { factor = 100 }
+        add_political_power = 10
+    }
+}
