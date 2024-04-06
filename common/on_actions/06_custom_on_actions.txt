@@ -1,17 +1,49 @@
 on_actions = {
     on_startup = {
-        effect = {
+        effect = {#start-up event
 			EST = {
 				country_event = {
 					id = EST_events.1
 				}
 			}
 		}
-        effect = {
+        effect = {#Britain pledge event
             EST = {
                 country_event = {
                     id = EST_events.2
                     days = 9
+                }
+            }
+        }
+        effect = {
+            EST = {
+                country_event = {
+                    id = EST_events.3
+                    days = 17
+                }
+            }
+        }
+        effect = {
+            EST = {
+                country_event = {
+                    id = EST_events.4
+                    days = 28
+                }
+            }
+        }
+        effect = {
+            EST = {
+                country_event = {
+                    id = EST_events.5
+                    days = 31
+                }
+            }
+        }
+        effect = {
+            EST = {
+                country_event = {
+                    id = EST_events.6
+                    days = 42
                 }
             }
         }

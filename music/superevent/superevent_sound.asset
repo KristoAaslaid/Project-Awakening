@@ -1,0 +1,9 @@
+###########################
+# Super Events
+###########################
+
+sound = {
+	name = "warstart_superevent_sound"
+	file = "warstart_superevent.wav"
+	always_load = no
+}

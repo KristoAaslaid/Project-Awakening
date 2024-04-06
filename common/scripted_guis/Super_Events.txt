@@ -1,0 +1,24 @@
+scripted_gui = {
+    warstart_superevent_custom = {
+		window_name = "warstart_superevent_custom_window"
+
+		visible = {
+			has_country_flag = warstart_superevent ### this country flag triggers the #superevent
+		}
+	}
+
+	warstart_superevent_frame_custom = {
+		context_type = player_context
+		window_name = "warstart_superevent_frame_custom"
+
+		visible = {
+			has_country_flag = warstart_superevent
+		}
+
+		effects = {
+			Option_click = {
+				clr_country_flag = warstart_superevent ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+			}
+		}
+	}
+}

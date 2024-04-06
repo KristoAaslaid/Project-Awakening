@@ -1,0 +1,11 @@
+soundeffect = {
+    name = warstart_superevent
+    loop = no
+    sounds = {
+        sound = warstart_superevent_sound
+    }
+    is3d = no 
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 1
+}

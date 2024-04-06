@@ -45,3 +45,93 @@ country_event = {
         add_political_power = 10
     }
 }
+#Narva Battle
+country_event = {
+    id = EST_events.3
+    title = EST_events.3.title
+    desc = EST_events.3.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.3.opt
+        ai_chance = { factor = 100 }
+        add_political_power = 10
+        set_country_flag = warstart_superevent
+    }
+}#Viimased Saksa
+country_event = {
+    id = EST_events.4
+    title = EST_events.4.title
+    desc = EST_events.4.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.4.opt
+        ai_chance = { factor = 100 }
+        add_political_power = 10
+    }
+}#SB Laevastik 
+country_event = {
+    id = EST_events.5
+    title = EST_events.5.title
+    desc = EST_events.5.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.5.opt
+        ai_chance = { factor = 100 }
+        add_political_power = 10
+    }
+}
+country_event = { #Laidoner ja Mobilisatsioon
+    id = EST_events.6
+    title = EST_events.6.title
+    desc = EST_events.6.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.6.opt
+        ai_chance = { factor = 100 }
+        add_political_power = 10
+    }
+}

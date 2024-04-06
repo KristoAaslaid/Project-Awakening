@@ -1,0 +1,81 @@
+guiTypes = {
+	
+	containerWindowType = {
+		name = "warstart_superevent_custom_window"
+		size = { width = 220 height = 128 }
+		position = { x=0 y=-210 }
+		Orientation = center
+		Origo = center
+		clipping = no
+		show_sound = warstart_superevent ### SOUND EFFECT GOES HERE, MAKE SURE YOU'RE USING SOUND #EFFECT AND NOT SOUND!!!!!
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+
+		instantTextBoxType = {
+			name = "Title"
+			position = { x = 0 y = 20 }
+			font = "hoi_20bs"
+			borderSize = {x = 0 y = 0}
+			text = "warstart_superevent_t" ###### HERE GOES THE TITLE ########
+			maxWidth = 220
+			maxHeight = 24
+			format = centre
+		}
+
+		iconType = {
+			name ="image"
+			spriteType = "GFX_superevent_warstart"
+			position = { x= -286 y = -18 }
+			Orientation = center
+			alwaystransparent = yes
+		}
+
+	}
+
+	containerWindowType = {
+		name = "warstart_superevent_frame_custom"
+		size = { width = 588 height = 465 }
+		position = { x=0 y=0 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_bigevent_border"
+		}
+
+		buttonType = {
+			name = "Option"
+			text = "warstart_superevent_a"  ############## OPTION
+			shortcut = "ESCAPE"
+			position = { x = -140 y = 183 }
+			quadTextureSprite ="GFX_main_lobby_button"
+			buttonFont = "hoi_20bs"
+			Orientation = center
+		}
+
+		iconType = {
+			name ="underlay"
+			spriteType = "GFX_superevent_text_underlay_fourlines"
+			position = { x= 27 y = -182 }
+			Orientation = lower_left
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "text"
+			position = {  x= 70 y = -173 }
+			font = "hoi_20bs"
+			text = "warstart_superevent_d" ######## HERE GOES THE DESCRIPTION ###########
+			maxWidth = 500
+			maxHeight = 173
+			fixedsize = yes
+			format = centre
+			Orientation = lower_left
+		}
+	}
+}
