@@ -20,22 +20,86 @@
   EST_events.5.desc:0 "12.dets 1918 jõudis Suurbritanniast lubatud sõjaline abi, Briti sõjalaevastiku 1. Kergristlejate eskaader kontraadmiral Sir Edwyn Alexander Sinclairi juhtimisel, Tallinnasse. See tõi kaasa relvi ja laskemoona ning jäi Eesti merd kaitsma ning aitas kaasa sõjategevusele mitmel erineval viisil. Toimus kaks katsed Suurbritannia laevastik Tallinna tuua, esimene nurjus kuna Saaremaa lähistel hukkus kergeristleja HMS Cassandra. \nHiljem asendas Sir Sinclairi Briti admiral Sir Walter Cowan." 
   EST_events.5.opt:0 "Lõpuks." 
   #Laidoner+Mobilisatsioon Event
-  EST_events.6.title:0 "Johan Laidoner Ülemjuhatajaks, Mobilisatsioon." 
+  EST_events.6.title:0 "Johan Laidoner Ülemjuhatajaks, Mobilisatsioon" 
   EST_events.6.desc:0 "23.dets 1918 loodi Eesti Sõjavägede Ülemjuhataja ametikoht, kelleks nimetati polkovnik Johan Laidoner. Johan Laidoner kasutas sõjaväe juhtimisel ainujuhtimise printsiipi ja tänu sellele lõi ta efektiivse juhtimisstruktuuri, mis abistas Eesti sõjaväe plaanide läbiviimises. \nSamal päeval toimus ka mobilisatsioon, mis 5.jan 1919 tõi kokku Eesti kaitsejõududesse 13 500 meest." 
   EST_events.6.opt:0 "Eesti kaitseks!"
   #Vabatahtlikud
-  EST_events.7.title:0 "Teiste riikide vabatahtlikud jõuavad Tallinnasse." 
+  EST_events.7.title:0 "Teiste riikide vabatahtlikud jõuavad Tallinnasse" 
   EST_events.7.desc:0 "30.dets 1918 jõudsid esimesed Soome vabatahtlikud Tallinna, nende juhiks oli Martin Ekström. \nUmbes samal ajal moodustusid kohalikud baltisakslased Balti pataljoni Konstantin Weissi juhtimisel. Need kaks vabatahtlike väge olid ainult esimesed, mis jõuavad Eesti vägede koosseisu ja toetavad Eestit oma vabadussõjas. Peale nende ühinevad veel Ingeri, Läti, Rootsi ja Taani vabatahtlikud ning Eesti väed moodustavad lepingu ka veel Valgekaartlastega, Vene Keisririigi sõjaväe järgi jääva osaga." 
   EST_events.7.opt:0 "Abi on alati teretulnud."
   #2/3 vallutatud
-  EST_events.8.title:0 "Punaarmee on vallutanud enamus Eestit." 
+  EST_events.8.title:0 "Punaarmee on vallutanud enamus Eestit" 
   EST_events.8.desc:0 "31.dets 1918 oli Nõukogude Punaarmee juba vallutanud 2/3 Eesti territooriumist ja ähvardab vabadussõja lõpetada Eesti iseseisvuse kaotamisega. Eesti väed olid aga selle ajaga massiivselt suurenenud ning paremini relvastanud ning suutnud Punaarmee pealetungi peatada enne kui nad Tallinna suudavad ära vallutada." 
   EST_events.8.opt:0 "Me peame nad peatama!"
   #Vastupealetung
-  EST_events.9.title:0 "Eesti vägede vastupealetung." 
+  EST_events.9.title:0 "Eesti vägede vastupealetung" 
   EST_events.9.desc:0 "4.jan 1919, peale Punaarmee peatumist enne Tallinnat Valkla, Priske ja Kehra lahingutega, alustas Eesti sõjavägi üldist vastupealetungi eesmärgiga Nõukogude Venemaa Eesti territooriumilt välja tõrjuda. Algas Eesti vabastamine Punaarmee kätest." 
   EST_events.9.opt:0 "Saadame nad tagasi Petrogradi."
   #Utria
-  EST_events.10.title:0 "Utria Dessant." 
+  EST_events.10.title:0 "Utria Dessant" 
   EST_events.10.desc:0 "17.jan 1919 alustatud ja 19.jan 1919 lõppenud Utria Dessant oli Eesti Vabadussõja ajal kõige suurim meredessant operatsioon. Selle operatsiooniga loodi eeldused Narva vallutamisele ja loodi sillapea Nõukogude Punaarmee tagalasse, mis sundis Punaarmee taganema. Utria dessant oli Eesti vägedele edukas ja selle sai ainult teha tänu Briti laevastiku abile, mis andis Eestile Venemaa käest võetud sõjalaevad selle dessandi tegemiseks."
   EST_events.10.opt:0 "Eesti Meri jääb meie kätte!"
+  #Narva Vabastamine
+  EST_events.11.title:0 "Narva Vabastamine" 
+  EST_events.11.desc:0 "19.jan 1919 vabastati Narva Nõukogude Punaarmee käest. Narva oli kõige esimene linn, mis Eesti käest ära võeti ja selle tagasi võtmisega saadi Vabadussõja Viru rinne tagasi sõjaeelsete piiridesse. Peamine väeosa, mis Narva vabastas, olid Soome vabatahtlikud Ekströmi juhtimisel, kes samuti osalesid Utria dessandil. Peale Narva Vabastamist viidi üsna suur osa sõjaväest Lõuna-Eestisse, kuna seal oli veel Punaarmee poolt vallutatud territooriume."
+  EST_events.11.opt:0 "Nüüd Lõuna suunal!"
+  #Paju Lahing
+  EST_events.12.title:0 "Paju Lahing" 
+  EST_events.12.desc:0 "31.jan 1919 toimus Paju mõisas Paju lahing, mis otsustas Valga linna ja raudteesõlme langemise Eesti vägede kätte. Selles lahingus osalesid Julius Kuperjanovi juhitud partisanide pataljon, Hans Kalmi “Põhja Poegade” rügemendi kompanii ning Punaarmee Läti punaste kütidiviis. Läti Punased Kütid olid tuntud kui väga professionaalsed sõdurid ning nende kaotus oli väga oluline Lõunarindel, kuna Valga hõivamine lubas rünnata nii Pihkvat kui Riiat."
+  EST_events.12.opt:0 "Varsti pole Punaarmeed meie maal enam!"
+  #Saaremaa Mäss
+  EST_events.13.title:0 "Saaremaa Mäss" 
+  EST_events.13.desc:0 "16.veb-21.veb 1919 toimus Saaremaal ja Muhumaal vastuhakk Eesti Vabariigi valitsuse ja baltisaksa mõisnike vastu. Selle ülestõusu põhjuseid oli mitu aga peamiselt oli Saaremaa raske majanduslik olukord peale Esimest maailmasõda ja Saksa okupatsiooni. Saaremaa maad olid väheviljakad ja ei suutnud toetada saartel olevat inimeste hulka, mistõttu pidi lisavilja sisse tooma. Väga paljudel Saaremaa elanikel ei olnud enda maad ja pidid mõisnike käest rentima, et ennast ära toita. Maailmasõja ja okupatsiooniga muutus Saarlaste olukord veel halvemaks ja kuna Eesti Vabariik, vabadussõja tõttu, ei aidanud Saare elanike piisavalt, vähemalt saarlaste arvates ning isegi käsiti mobilisatsiooniga värvata, toimus relvastatud vastuhakk. \nVastuhakk lõpetati mandrilt toodud karistussalgaga ja Kuressaares oleva sõjaväega. Mässul muidugi oli mõju valitsusele ja Eesti valitsus hakkas agraarpoliitikat muutma, et see uuesti ei toimuks. "
+  EST_events.13.opt:0 "On ikka hea aeg valitud."
+  #Laidoneri Ettekanne
+  EST_events.14.title:0 "Johan Laidoneri ettekanne" 
+  EST_events.14.desc:0 "24.veb 1919 kandis Johan Laidoner Eesti Maanõukogule ette, et Nõukogude Punaarmee on Eesti piiridest välja aetud. Eesti sõjavägi hakkas nüüd tungima Läti ja Venemaa territooriumitele, et tekitada “puhvertsoone”, lootes päästa Eesti alasi sõjakahjustustest. \nSelle plaani järgselt samuti aitas Eesti Läti vabadussõjale kaasa, mistõttu ühines hiljem Läti vabatahtlike väeosa Eesti Vägedega kui hakati vallutama Läti alasi Punaarmee käest."
+  EST_events.14.opt:0 "Eesti maad on vabad!"
+  #Landeswehr Riia
+  EST_events.15.title:0 "Landeswehr võtab Riia üle" 
+  EST_events.15.desc:0 "22.mail 1919 võttis Saksa vägedest Lätti jäänud väeosa Landeswehr ja selle Rauddiviis üle Riia. Riia ülevõtmisega sai Lätis olev Punaarmee hävitavalt purustada ning Eesti vägede liikumisega lõunasse otsustati Läti aladelt taganeda, mis jättis ainult Saksa Landeswehri ja Eesti Sõjaväe Läti aladele. \nLandeswehri juhiks oli Rüdiger von der Goltz ning selle Rauddiviisi juhiks oli Josef Bischoff. \nEesti toetas sellel ajal Läti Ajutist Valitsust, mis oli otseselt Landeswehri vastu."
+  EST_events.15.opt:0 "Saksa Väed on ikka Baltimaadel?"
+  #Landeswehri sõja algus
+  EST_events.16.title:0 "Landeswehri sõja algus" 
+  EST_events.16.desc:0 "22.mail 1919 võttis Saksa vägedest Lätti jäänud väeosa Landeswehr ja selle Rauddiviis üle Riia. Riia ülevõtmisega sai Lätis olev Punaarmee hävitavalt purustada ning Eesti vägede liikumisega lõunasse otsustati Läti aladelt taganeda, mis jättis ainult Saksa Landeswehri ja Eesti Sõjaväe Läti aladele. \nLandeswehri juhiks oli Rüdiger von der Goltz ning selle Rauddiviisi juhiks oli Josef Bischoff. \nEesti toetas sellel ajal Läti Ajutist Valitsust, mis oli otseselt Landeswehri vastu."
+  EST_events.16.opt:0 "Edasi Riiasse!"
+  #Landeswehri Vaherahu
+  EST_events.17.title:0 "Vaherahu Landeswehri ja Eesti vahel" 
+  EST_events.17.desc:0 "10.juunil 1919 toimus vaherahu Eesti ja Landeswehri vägede vahel, Antandi vahendusel. Konflikt Eesti ja Landeswehri vahes oli jutuks ka Pariisi rahukonverentsil, kus Antanti ülemsõjanõukogu käskis Landeswehril lõpetada pealetung ning viia oma väed Eesti Ultimaatumi poolt märgitud joone taha. \nLandeswehr ignoreeris seda ja pigem tugevdas oma piirkonda lisajõududega. Vaherahu veel säilis kuna mõlemad pooled ei rünnanud üksteist, kuigi ei teatud kui kauaks."
+  EST_events.17.opt:0 "Peab valmis olema."
+  #Vaherahu Katkemine
+  EST_events.18.title:0 "Vaherahu Katkemine, Landeswehri rünnak" 
+  EST_events.18.desc:0 "19.juunil 1919 ründasid Landeswehri Rauddiviisi osad Eesti sõjaväge, tungides mitu küla. Sellega rünnakuga lõppes vaherahu ja läbirääkimised Eesti ja Landeswehri vahel ebaõnnestusid, jätkus Landeswehri sõda. \nVarsti algas Sakslaste üldpealetung tervel rindel Eesti vastu, kuigi see väga kaua ei kestnud kuna Eesti väed suutsid teha vastupealetungi paari päeva pärast."
+  EST_events.18.opt:0 "Seda oli ette arvata."
+  #Võnnu Lahing
+  EST_events.19.title:0 "Võnnu Lahing" 
+  EST_events.19.desc:0 "23.juunil 1919 lõppenud Võnnu Lahinguga muutus Landeswehri sõja olukord oluliselt Eesti poolele heaks. Saksa väed taganesid Riia suunas peaaegu tervel rindel. Võnnu Lahing on isegi tänapäeval veel tähtis, kuna 23.juuni on Võidupüha just selle lahingu pärast. \nVõnnu Lahing tähendas juba sellel ajal Eestlastele palju, kuna see oli kauaoodatus revanš Eestis sakslaste vallutuse ja 700-aastase võimutsemise üle."
+  EST_events.19.opt:0 "Äkki said oma õppetunni!"
+  #Landeswehri sõja lõpp
+  EST_events.20.title:0 "Landeswehri sõja lõpp" 
+  EST_events.20.desc:0 "3.juulil 1919 lõppes Landeswehri sõda vaherahuga. Strazdumuižas toimunud läbirääkimistel anti Landeswehrile mitu tingimust, et sõda lõpetada - Sakslaste väed tõmbuvad tagasi Lielupe taha, Rauddiviis lahkub Lätist ja Landeswehrist lahkuvad Saksa kodanikest sõjaväelased. Eesti omalt poolt lõpetab pealetungi. \nKuna see sõda lõppes suure Eesti ja Läti riikide võiduga, oli see viimane piisk karikasse, mis põhjustas baltisaksa mõisaomanduse radikaalse riigistamise. Baltisakslaste maine oli veel rohkem langenud."
+  EST_events.20.opt:0 "Sakslastega tegeletud, nüüd tagasi Punaarmee poole!"
+  #Valge Mõõk
+  EST_events.21.title:0 "Operatsioon Valge Mõõk" 
+  EST_events.21.desc:0 "28.sept 1919 algas Eestis tegutsenud Valgekaartlaste üks suurimaid operatsioone Nõukogude Venemaa vastu - Operatsioon Valge Mõõk. Selle operatsiooni peamiseks eesmärgiks oli vallutada Petrograd, mis oli sellel ajal Nõukogude Venemaa pealinn ja tähtsaim linn. Seda pealetungi aitasid kaasa ka veel Eesti sõjavägi, lootes nihutada Punaarmee rindejoon kaugemale Eesti piiridest ja viia Valgekaartlaste väed Eestist välja, ning ka veel Suurbritannia laevastik."
+  EST_events.21.opt:0 "Ega neid Valgekaartlasi ei saa ka usaldada."
+  #Krasnaja Gorka
+  EST_events.22.title:0 "Krasnaja Gorka Operatsioon" 
+  EST_events.22.desc:0 "13.okt 1919 seoses Operatsioon Valge Mõõgaga tegi Eesti ka veel omakorda proovi enda seisu Vabadussõjas paremaks teha. Selleks plaaniti Krasnaja Gorka operatsioon plaaniga võtta üle fordid Ingerimaal, mis oleks võimaldanud katta Valgekaartlaste põhjatiiba ning samuti hävitada Nõukogude Balti laevastikku. \nPlaanile aitas kaasa ka veel Suurbritannia sõjalaevastik admiral Walter Cowani juhenduse all. Ei ole teada, mis teised plaanid olid veel Krasnaja Gorka fordidega seoses, kuna Suurbritannia soovis, et Eesti need vallutaks. \nKrasnaja Gorka operatsiooni esimeseks osaks oli dessant Kaporje lahe Peipja sadamas, mis oli peamiseks viisiks tuua Eesti sõjaväele seal uut moona ja tuge."
+  EST_events.22.opt:0 "Varsti on see meie territoorium!"
+  #Trotski-Kamenev
+  EST_events.23.title:0 "Lev Trotski Petrogradis, Lev Kamenevi direktiiv" 
+  EST_events.23.desc:0 "17. Okt 1919 jõudis Petrogradi üks Nõukogude Venemaa suurimaid juhte - Lev Trotski. Tema juhtimisel tugevdati Petrogradi kaitseid ja hakati Valgekaartlastele massiliselt vastu, kuna teati et ei saa kaotada Petrogradi. Paar päeva hiljem kirjutas Lev Kamenev alla direktiivile, mis tõi Arhangelski rindelt Petrogradi täiendavaid sõjaväeosi, mis tegi Valgekaartlaste proovi Petrograd üle võtta veelgi raskemaks, piisavalt, et see nurjus ja Punaarmee hakkas tegema vastupealetungi."
+  EST_events.23.opt:0 "See küll hea ei ole."
+  #VK taganemine
+  EST_events.24.title:0 "Valgekaartlaste taganemine, operatsioonide lõpetamine" 
+  EST_events.24.desc:0 "3.nov ja 9.nov 1919 lõpetati nii Operatsioon Valge Mõõk ja Krasnaja Gorka operatsioon, kuna Punaarmee suutis Valgekaartlaste vägesi tagasi lükata ja pealetungile asuda, mis ähvardas Eesti vägesi, mis ei olnud valmis võitlema Vene territooriumil, rünnata. \nValgekaartlaste väed taganesid peaaegu täielikult ning Eesti vägedele anti käsk taganeda Narva, kus olid paremad kaitsed ja suudeti Punaarmee pealetung lõpetada."
+  EST_events.24.opt:0 "Fordid olid liiga hästi kaitstud."
+  #Narva Kaitselahingud
+  EST_events.25.title:0 "Narva Kaitselahingud" 
+  EST_events.25.desc:0 "Nõukogude Venemaa ja Eesti vahel alustati 1919 aasta novembril läbirääkimised. Alguses sõlmiti leping pantvangide vahetamisel, hiljem ka vaherahu, mis pidi algama 24.nov 1919. See vaherahu ei läinud toime, kuna Nõukogude Venemaa suutis Valgekaartlaste väed puruks lüüa ja proovis peale seda saada paremaid tingimusi veel sõlmimata Tartu Rahulepingus. \nNeed kaitselahingud toimusid kolmes etapis. Esimesed lahingud olid Novembri keskpaigast kuni kuu lõpuni, teised lahingud olid 7.-20. Detsember ja viimased 28.-30.dets, peale mida jõustus vaherahu."
+  EST_events.25.opt:0 "Mitte üks samm tagasi, Narva on Eesti linn!"
+  #Tartu Rahu
+  EST_events.26.title:0 "Tartu Rahu" 
+  EST_events.26.desc:0 "2. Veebruar 1920 sõlmiti Eesti ja Nõukogude Venemaa vahel Tartus rahvusvaheline leping, millega lõpetati Eesti Vabadussõda, määrati Eesti idapiir ning Nõukogude Venemaa tunnustas Eesti Vabariigi iseseisvust. \nEsimese ettepaneku sellise vaherahu sõlmimiseks esitas Venemaa 25.juulil, 1919 aga seoses Operatsioon Valge Mõõga läbikukkumisega, selle esimese ettepaneku protsessi ei jätkatud Venemaa poolt.  \nTartu Rahu läbirääkimised võtsid väga kaua aega ning kuna mõlemad osapooled tahtsid väga erinevaid nõudmisi, oli võimalus läbirääkimiste katkemises. Tartu Rahu näitas teistele riikidele, et Nõukogude Venemaaga on võimalik läbirääkimisi pidada ja rahvusvahelisi lepinguid sõlmida."
+  EST_events.26.opt:0 "Eesti on nüüd vaba ja iseseisev!"

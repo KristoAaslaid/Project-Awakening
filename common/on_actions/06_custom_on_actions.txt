@@ -73,9 +73,137 @@ on_actions = {
         }
         effect = {
             EST = {
-                country_event = { #Vastupealetung
+                country_event = { #Utria
                     id = EST_events.10
                     days = 67
+                }
+            }
+        }
+        effect = {
+            EST = {
+                country_event = { #Narva Vab
+                    id = EST_events.11
+                    days = 69
+                }
+            }
+        }
+        effect = {
+            EST = {
+                country_event = { #Paju
+                    id = EST_events.12
+                    days = 81
+                }
+            }
+        }
+        effect = {
+            EST = {
+                country_event = { #Saaremaa
+                    id = EST_events.13
+                    days = 97
+                }
+            }
+        }
+        effect = {
+            EST = {
+                country_event = { #Laidoner Ettekanne
+                    id = EST_events.14
+                    days = 105
+                }
+            }
+        }
+        effect = {
+            EST = {
+                country_event = { #LW Riia
+                    id = EST_events.15
+                    days = 131
+                }
+            }
+        }
+        effect = {
+            EST = {
+                country_event = { #LW Sõja algus
+                    id = EST_events.16
+                    days = 206
+                }
+            }
+        }
+        effect = {
+            EST = {
+                country_event = { #LW-Eesti Vaherahu
+                    id = EST_events.17
+                    days = 211
+                }
+            }
+        }
+        effect = {
+            EST = {
+                country_event = { #LW-Eesti Vaherahu katkemine
+                    id = EST_events.18
+                    days = 220
+                }
+            }
+        }
+        effect = {
+            EST = {
+                country_event = { #Võnnu
+                    id = EST_events.19
+                    days = 224
+                }
+            }
+        }
+        effect = {
+            EST = {
+                country_event = { #LW sõja lõpp
+                    id = EST_events.20
+                    days = 234
+                }
+            }
+        }
+        effect = {
+            EST = {
+                country_event = { #Valge Mõõk
+                    id = EST_events.21
+                    days = 331
+                }
+            }
+        }
+        effect = {
+            EST = {
+                country_event = { #Krasnaja Gorka
+                    id = EST_events.22
+                    days = 346
+                }
+            }
+        }
+        effect = {
+            EST = {
+                country_event = { #Trotski-Kamenev
+                    id = EST_events.23
+                    days = 350
+                }
+            }
+        }
+        effect = {
+            EST = {
+                country_event = { #VK taganemine
+                    id = EST_events.24
+                    days = 367
+                }
+            }
+        }
+        effect = {
+            EST = {
+                country_event = { #Narva Kaitselahingud
+                    id = EST_events.25
+                    days = 379
+                }
+            }
+        }
+        effect = {
+            EST = {
+                country_event = { #Narva Kaitselahingud
+                    id = EST_events.26
+                    days = 379
                 }
             }
         }

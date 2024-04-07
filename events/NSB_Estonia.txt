@@ -223,3 +223,355 @@ country_event = { #Utria Dessant
         add_political_power = 10
     }
 }
+country_event = { #Narva Vabastamine
+    id = EST_events.11
+    title = EST_events.11.title
+    desc = EST_events.11.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.11.opt
+        ai_chance = { factor = 100 }
+        add_political_power = 10
+    }
+}
+country_event = { #Paju Lahing
+    id = EST_events.12
+    title = EST_events.12.title
+    desc = EST_events.12.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.12.opt
+        ai_chance = { factor = 100 }
+        add_political_power = 10
+    }
+}
+country_event = { #Saaremaa mäss
+    id = EST_events.13
+    title = EST_events.13.title
+    desc = EST_events.13.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.13.opt
+        ai_chance = { factor = 100 }
+        add_political_power = 10
+    }
+}
+country_event = { #Laidoneri ettekanne
+    id = EST_events.14
+    title = EST_events.14.title
+    desc = EST_events.14.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.14.opt
+        ai_chance = { factor = 100 }
+        add_political_power = 10
+    }
+}
+country_event = { #Riia Landeswehr
+    id = EST_events.15
+    title = EST_events.15.title
+    desc = EST_events.15.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.15.opt
+        ai_chance = { factor = 100 }
+        add_political_power = 10
+    }
+}
+country_event = { #Landeswehri sõja algus
+    id = EST_events.16
+    title = EST_events.16.title
+    desc = EST_events.16.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.16.opt
+        ai_chance = { factor = 100 }
+        add_political_power = 10
+    }
+}
+country_event = { #Vaherahu LW-Eesti
+    id = EST_events.17
+    title = EST_events.17.title
+    desc = EST_events.17.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.17.opt
+        ai_chance = { factor = 100 }
+        add_political_power = 10
+    }
+}
+country_event = { #Vaherahu katkemine
+    id = EST_events.18
+    title = EST_events.18.title
+    desc = EST_events.18.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.18.opt
+        ai_chance = { factor = 100 }
+        add_political_power = 10
+    }
+}
+country_event = { #Võnnu
+    id = EST_events.19
+    title = EST_events.19.title
+    desc = EST_events.19.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.19.opt
+        ai_chance = { factor = 100 }
+        add_political_power = 10
+    }
+}
+country_event = { #LW sõja lõpp
+    id = EST_events.20
+    title = EST_events.20.title
+    desc = EST_events.20.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.20.opt
+        ai_chance = { factor = 100 }
+        add_political_power = 10
+    }
+}
+country_event = { #Valge Mõõk
+    id = EST_events.21
+    title = EST_events.21.title
+    desc = EST_events.21.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.21.opt
+        ai_chance = { factor = 100 }
+        add_political_power = 10
+    }
+}
+country_event = { #Krasnaja Gorka
+    id = EST_events.22
+    title = EST_events.22.title
+    desc = EST_events.22.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.22.opt
+        ai_chance = { factor = 100 }
+        add_political_power = 10
+    }
+}
+country_event = { #Trotski-Kamenev
+    id = EST_events.23
+    title = EST_events.23.title
+    desc = EST_events.23.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.23.opt
+        ai_chance = { factor = 100 }
+        add_political_power = 10
+    }
+}
+country_event = { #VK taganemine, op end
+    id = EST_events.24
+    title = EST_events.24.title
+    desc = EST_events.24.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.24.opt
+        ai_chance = { factor = 100 }
+        add_political_power = 10
+    }
+}
+country_event = { #Narva Kaitselahingud
+    id = EST_events.25
+    title = EST_events.25.title
+    desc = EST_events.25.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.25.opt
+        ai_chance = { factor = 100 }
+        add_political_power = 10
+    }
+}
+country_event = { #Tartu Rahu
+    id = EST_events.26
+    title = EST_events.26.title
+    desc = EST_events.26.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.26.opt
+        ai_chance = { factor = 100 }
+        add_political_power = 10
+    }
+}
