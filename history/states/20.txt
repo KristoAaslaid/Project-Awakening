@@ -81,7 +81,7 @@ state = {
 		2263
 	}
 	buildings_max_level_factor = 1
-	manpower = 1
+	manpower = 32506
 	state_category = town
 	history = {
 		owner = LAT
