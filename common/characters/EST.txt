@@ -16,7 +16,7 @@ characters={
 		}
 	}
 
-	EST_artur_sirk={
+	EST_artur_sirk={ #Asenda
 		name=EST_artur_sirk
 		portraits={
 			civilian={
@@ -33,7 +33,7 @@ characters={
 		}
 	}
 
-	EST_jaan_anvelt={
+	EST_jaan_anvelt={#Asenda
 		name=EST_jaan_anvelt
 		portraits={
 			civilian={
@@ -187,7 +187,7 @@ characters={
 		}
 	}
 
-	EST_alex_nirk={
+	EST_alex_nirk={#Who?
 		name=EST_alex_nirk
 		portraits={
 			army={
@@ -214,7 +214,7 @@ characters={
 
 	# Laidoner up there
 
-	EST_alfons_rebane={
+	EST_alfons_rebane={#1918 oli ainult 10.a
 		advisor={
 			slot = army_chief
 			idea_token = EST_alfons_rebane
@@ -242,7 +242,7 @@ characters={
 
 	### NAVY CHIEFS ###
 
-	EST_oskar_eiriksson={
+	EST_oskar_eiriksson={#Who?
 		name=EST_oskar_eiriksson
 		portraits={
 			army={
@@ -265,7 +265,7 @@ characters={
 		}
 	}
 
-	EST_alfred_vendt={
+	EST_alfred_vendt={#Asenda
 		name=EST_alfred_vendt
 		portraits={
 			army={
@@ -291,7 +291,7 @@ characters={
 
 	### AIR CHIEFS ###
 
-	EST_richard_tomberg={
+	EST_richard_tomberg={#Not Needed
 		name=EST_richard_tomberg
 		portraits={
 			army={
@@ -314,7 +314,7 @@ characters={
 		}
 	}
 
-	EST_leo_sepp={
+	EST_leo_sepp={#Air's not needed
 		name=EST_leo_sepp
 		portraits={
 			army={
@@ -342,31 +342,41 @@ characters={
 
 	# Jaakson up there
 
-	EST_richard_veermaa={
-		name=EST_richard_veermaa
+	EST_ernst_podder={
+		name=EST_ernst_podder
 		portraits={
 			army={
-				small="GFX_idea_generic_army_europe_2"
+				large="gfx//leaders//EST//EST_ernst_podder.dds"
+				small="gfx//leaders//EST//EST_ernst_podder_small.dds"
 			}
 		}
 		advisor={
 			slot = high_command
-			idea_token = EST_richard_veermaa
+			idea_token = EST_ernst_podder
 			ledger = army
 			allowed = {
 				original_tag = EST
 			}
 			traits = {
-				army_cavalry_2
+				army_infantry_2
 			}
 			cost = 100
 			ai_will_do = {
 				factor = 1.000
 			}
 		}
+		field_marshal={
+			skill=1
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+			visible = { has_dlc = "No Step Back" }
+		}
 	}
 
-	EST_nikolay_g_karotamm={
+	EST_nikolay_g_karotamm={#Asendada
 		name=EST_nikolay_g_karotamm
 		portraits={
 			army={
@@ -393,7 +403,7 @@ characters={
 		}
 	}
 
-	EST_voldemar_mere={
+	EST_voldemar_mere={#Who?
 		name=EST_voldemar_mere
 		portraits={
 			army={
@@ -426,7 +436,7 @@ characters={
 
 	# Larka up there
 
-	EST_boris_kumm={
+	EST_boris_kumm={#random kapral vabadussõjas.
 		name=EST_boris_kumm
 		portraits={
 			army={
@@ -448,7 +458,7 @@ characters={
 		}
 	}
 
-	EST_august_rei={
+	EST_august_rei={#Actual Politician????
 		name=EST_august_rei
 		portraits={
 			army={
@@ -467,7 +477,7 @@ characters={
 		}
 	}
 
-	EST_juri_uluots={
+	EST_juri_uluots={#oh my god, someone who actually was in politics!
 		name=EST_juri_uluots
 		portraits={
 			army={
