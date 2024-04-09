@@ -9,12 +9,14 @@ if = {
 }
 
 set_research_slots = 3
-add_ideas = {
-	limited_conscription
-}
 
 recruit_character = EST_konstantin_pats
 recruit_character = EST_ernst_podder
+
+add_ideas = {
+	limited_conscription
+	EST_ernst_podder_army_chief
+}
 
 set_convoys = 5
 

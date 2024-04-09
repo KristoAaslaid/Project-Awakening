@@ -351,8 +351,9 @@ characters={
 			}
 		}
 		advisor={
+			desc = EST_ernst_podder_desc
 			slot = high_command
-			idea_token = EST_ernst_podder
+			idea_token = EST_ernst_podder_army_chief
 			ledger = army
 			allowed = {
 				original_tag = EST
@@ -360,9 +361,10 @@ characters={
 			traits = {
 				army_infantry_2
 			}
-			cost = 100
+			cost = -1
+			can_be_fired = no
 			ai_will_do = {
-				factor = 1.000
+				factor = 0
 			}
 		}
 		field_marshal={
