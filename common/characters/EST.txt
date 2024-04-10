@@ -164,7 +164,7 @@ characters={
 		}
 		corps_commander={
 			desc = EST_ernst_podder_desc
-			skill=1
+			skill=2
 			attack_skill=2
 			defense_skill=2
 			planning_skill=2
@@ -267,6 +267,86 @@ characters={
 		}
 		corps_commander = {
 			desc = EST_aleksander_tonisson_desc
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	EST_julius_kuperjanov={
+		name=EST_julius_kuperjanov
+		portraits = {
+			army={
+				large="gfx/leaders/EST/EST_julius_kuperjanov.dds"
+			}
+		}
+		corps_commander = {
+			desc= EST_julius_kuperjanov_desc
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	EST_hans_kalm={
+		name=EST_hans_kalm
+		portraits = {
+			army = {
+				large="gfx/leaders/EST/EST_hans_kalm.dds"
+			}
+		}
+		corps_commander = {
+			desc= EST_hans_kalm_desc
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	EST_constantin_von_weiss={
+		name=EST_constantin_von_weiss
+		portraits = {
+			army = {
+				large="gfx/leaders/EST/EST_constantin_von_weiss.dds"
+			}
+		}
+		corps_commander = {
+			desc=EST_constantin_von_weiss_desc
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	EST_martin_ekstrom={
+		name=EST_martin_ekstrom
+		portraits = {
+			army = {
+				large="gfx/leaders/EST/EST_martin_ekstrom.dds"
+			}
+		}
+		corps_commander = {
+			desc=EST_martin_ekstrom_desc
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	EST_richard_borgelin={
+		name=EST_richard_borgelin
+		portraits = {
+			army = {
+				large="gfx/leaders/EST/EST_richard_borgelin.dds"
+			}
+		}
+		corps_commander = {
+			desc=EST_richard_borgelin_desc
 			skill = 2
 			attack_skill = 2
 			defense_skill = 2

@@ -1,0 +1,16 @@
+characters={
+    SOV_vladimir_lenin={
+        name=SOV_vladimir_lenin
+        portraits = {
+            army = {
+                large="gfx/leaders/SOV/SOV_vladimir_lenin.dds"
+            }
+        }
+        country_leader = {
+            ideology = leninism
+            desc=SOV_vladimir_lenin_desc
+            expire="1965.1.1.1"
+			id=-1
+        }
+    }
+}
