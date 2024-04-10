@@ -11,11 +11,24 @@ if = {
 set_research_slots = 3
 
 recruit_character = EST_konstantin_pats
+recruit_character = EST_johan_laidoner
+recruit_character = EST_juhan_tuuling
+recruit_character = EST_johan_pitka
+recruit_character = EST_juri_ots
 recruit_character = EST_ernst_podder
+recruit_character = EST_jaan_soots
+recruit_character = EST_andres_larka
+recruit_character = EST_aleksander_tonisson
 
 add_ideas = {
 	limited_conscription
 	EST_ernst_podder_army_chief
+	EST_juhan_tuuling
+	EST_johan_pitka
+	EST_juri_ots
+	EST_jaan_soots
+	EST_andres_larka
+	EST_aleksander_tonisson
 }
 
 set_convoys = 5
