@@ -354,4 +354,157 @@ characters={
 			logistics_skill = 2
 		}
 	}
+	EST_ado_birk={
+		name=EST_ado_birk
+		portraits = {
+			civilian = {
+				small="gfx/leaders/EST/govpol/EST_ado_birk_small.dds"
+			}
+		}
+		advisor = {
+			can_be_fired = no
+			desc = EST_ado_birk_desc
+			slot = political_advisor
+			idea_token = EST_ado_birk_minister
+			traits = { valisminister }
+		}
+	}
+	EST_jaan_poska={
+		name=EST_jaan_poska
+		portraits = {
+			civilian = {
+				small="gfx/leaders/EST/govpol/EST_jaan_poska_small.dds"
+			}
+		}
+		advisor = {
+			can_be_fired = no
+			desc = EST_jaan_poska_desc
+			slot = political_advisor
+			idea_token = EST_jaan_poska_minister
+			traits = { valisminister_asetaitja }
+		}
+	}
+	EST_jaan_tonisson={
+		name=EST_jaan_tonisson
+		portraits = {
+			civilian = {
+				small="gfx/leaders/EST/govpol/EST_jaan_tonisson_small.dds"
+			}
+		}
+		advisor = {
+			can_be_fired = no
+			desc = EST_jaan_tonisson_desc
+			slot = political_advisor
+			idea_token = EST_jaan_tonisson_minister
+			traits = { vana_jaan }
+		}
+		country_leader = {
+			ideology = oligarchism
+			desc = EST_jaan_tonisson_desc
+			expire="1965.1.1.1"
+			id=-1
+			traits = {
+				vana_jaan
+			}
+		}
+	}
+	EST_johannes_kartau={
+		name=EST_johannes_kartau
+		portraits = {
+			civilian = {
+				small="gfx/leaders/EST/govpol/EST_johannes_kartau_small.dds"
+			}
+		}
+		advisor = {
+			can_be_fired = no
+			desc = EST_johannes_kartau_desc
+			slot = political_advisor
+			idea_token = EST_johannes_kartau_minister
+			traits = { haridusminister }
+		}
+	}
+	EST_juhan_kukk={
+		name=EST_juhan_kukk
+		portraits = {
+			civilian = {
+				small="gfx/leaders/EST/govpol/EST_juhan_kukk_small.dds"
+			}
+		}
+		advisor = {
+			can_be_fired = no
+			desc = EST_juhan_kukk_desc
+			slot = political_advisor
+			idea_token = EST_juhan_kukk_minister
+			traits = { rahandusminister }
+		}
+	}
+	EST_harald_laksberg={
+		name=EST_harald_laksberg
+		portraits = {
+			civilian = {
+				small="gfx/leaders/EST/govpol/EST_harald_laksberg.dds"
+			}
+		}
+		advisor = {
+			can_be_fired = no
+			desc = EST_harald_laksberg_desc
+			slot = political_advisor
+			idea_token = EST_harald_laksberg_minister
+			traits = { haridusminister }
+		}
+	}
+	EST_konstantin_treffner={
+		name=EST_konstantin_treffner
+		portraits = {
+			civilian = {
+				small="gfx/leaders/EST/govpol/EST_konstantin_treffner_small.dds"
+			}
+		}
+		advisor = {
+			can_be_fired = no
+			desc = EST_konstantin_treffner_desc
+			slot = political_advisor
+			idea_token = EST_konstantin_treffner_minister
+			traits = { haridusminister }
+		}
+	}
+	EST_otto_strandman={
+		name=EST_otto_strandman
+		portraits = {
+			civilian = {
+				small="gfx/leaders/EST/govpol/EST_otto_strandman_small.dds"
+			}
+		}
+		advisor = {
+			can_be_fired = no
+			desc = EST_otto_strandman_desc
+			slot = political_advisor
+			idea_token = EST_otto_strandman_minister
+			traits = { kokkuhoidlik_minister }
+		}
+		country_leader = {
+			ideology = oligarchism
+			desc = EST_otto_strandman_desc
+			expire="1965.1.1.1"
+			id=-1
+			traits = {
+				kokkuhoidlik_minister
+			}
+		}
+	}
+	EST_peeter_pold={
+		name=EST_peeter_pold
+		portraits = {
+			civilian = {
+				small="gfx/leaders/EST/govpol/EST_peeter_pold_small.dds"
+			}
+		}
+		advisor = {
+			can_be_fired = no
+			desc = EST_peeter_pold_desc
+			slot = political_advisor
+			idea_token = EST_peeter_pold_minister
+			traits = { haridusminister }
+		}
+	}
 }

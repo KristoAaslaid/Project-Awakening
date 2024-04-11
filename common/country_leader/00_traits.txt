@@ -10785,4 +10785,78 @@ leader_traits = {
 			}
 		}
 	}
+
+	valisminister = {
+		random = no
+		sprite = 13
+		improve_relations_maintain_cost_factor = -0.25
+		opinion_gain_monthly_factor = 0.15
+		trade_opinion_factor = 0.15
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	valisminister_asetaitja = { 
+		random = no 
+		sprite = 13
+		political_power_factor = 0.05
+		stability_factor = 0.05
+		improve_relations_maintain_cost_factor = -0.25
+		opinion_gain_monthly_factor = 0.15
+		trade_opinion_factor = 0.15
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	vana_jaan = {
+		random = no
+		political_power_factor = 0.05
+		war_support_factor = 0.05
+		resistance_growth_on_our_occupied_states = 0.15
+		army_core_defence_factor = 0.06
+		army_core_attack_factor = 0.06
+		supply_combat_penalties_on_core_factor = -0.08
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	haridusminister = {
+		random = no
+		sprite = 13
+		research_speed_factor = 0.06
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	rahandusminister = {
+		random = no
+		sprite = 13
+		consumer_goods_factor = -0.15
+		economy_cost_factor = -0.15
+		stability_factor = 0.05
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	kokkuhoidlik_minister = {
+		political_power_factor = 0.05
+		stability_weekly = 0.005
+		dig_in_speed_factor = 0.20
+		max_dig_in_factor = 0.1
+		neutrality_drift = 0.03
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
 }

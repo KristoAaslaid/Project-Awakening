@@ -24,6 +24,14 @@ on_actions = {
             }
         }
         effect = {
+            SOV = {
+                country_event = {
+                    id = Proj_SOV.1
+                    days = 17
+                }
+            }
+        }
+        effect = {
             EST = {
                 country_event = {
                     id = EST_events.4

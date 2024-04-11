@@ -19,6 +19,15 @@ recruit_character = EST_ernst_podder
 recruit_character = EST_jaan_soots
 recruit_character = EST_andres_larka
 recruit_character = EST_aleksander_tonisson
+recruit_character = EST_ado_birk
+recruit_character = EST_jaan_poska
+recruit_character = EST_jaan_tonisson
+recruit_character = EST_johannes_kartau
+recruit_character = EST_juhan_kukk
+recruit_character = EST_harald_laksberg
+recruit_character = EST_konstantin_treffner
+recruit_character = EST_otto_strandman
+recruit_character = EST_peeter_pold
 
 add_ideas = {
 	limited_conscription
@@ -29,6 +38,9 @@ add_ideas = {
 	EST_jaan_soots
 	EST_andres_larka
 	EST_aleksander_tonisson
+	EST_jaan_poska_minister
+	EST_juhan_kukk_minister
+	EST_peeter_pold_minister
 }
 
 set_convoys = 5
