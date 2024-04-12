@@ -32,6 +32,14 @@ on_actions = {
             }
         }
         effect = {
+            BAL = {
+                country_event = {
+                    id = Proj_BAL.1
+                    days = 18
+                }
+            }
+        }
+        effect = {
             EST = {
                 country_event = {
                     id = EST_events.4
@@ -128,9 +136,33 @@ on_actions = {
             }
         }
         effect = {
+            BAL = {
+                country_event = {
+                    id = Proj_BAL.2
+                    days = 131
+                }
+            }
+        }
+        effect = {
+            SOV = {
+                country_event = {
+                    id = Proj_SOV.2
+                    days = 132
+                }
+            }
+        }
+        effect = {
             EST = {
                 country_event = { #LW Sõja algus
                     id = EST_events.16
+                    days = 206
+                }
+            }
+        }
+        effect = {
+            BAL = {
+                country_event = {
+                    id = Proj_BAL.3
                     days = 206
                 }
             }
@@ -147,6 +179,14 @@ on_actions = {
             EST = {
                 country_event = { #LW-Eesti Vaherahu katkemine
                     id = EST_events.18
+                    days = 220
+                }
+            }
+        }
+        effect = {
+            BAL = {
+                country_event = {
+                    id = Proj_BAL.4
                     days = 220
                 }
             }

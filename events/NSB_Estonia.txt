@@ -331,6 +331,10 @@ country_event = { #Riia Landeswehr
         name = EST_events.15.opt
         ai_chance = { factor = 100 }
         add_political_power = 10
+        add_to_war = {
+            targeted_alliance = LAT
+            enemy = SOV
+        }
     }
 }
 country_event = { #Landeswehri sõja algus
@@ -375,6 +379,13 @@ country_event = { #Vaherahu LW-Eesti
         name = EST_events.17.opt
         ai_chance = { factor = 100 }
         add_political_power = 10
+        white_peace = BAL
+        set_truce = {
+            target = BAL
+            days = 9
+        }
+        29 = { set_state_controller_to = EST }
+        20 = { set_state_controller_to = EST }
     }
 }
 country_event = { #Vaherahu katkemine
@@ -441,6 +452,13 @@ country_event = { #LW sõja lõpp
         name = EST_events.20.opt
         ai_chance = { factor = 100 }
         add_political_power = 10
+        white_peace = BAL
+        12 = { transfer_state_to = LAT }
+        18 = { transfer_state_to = LAT }
+        29 = { transfer_state_to = LAT }
+        20 = { transfer_state_to = LAT }
+        14 = { transfer_state_to = LAT }
+        11 = { transfer_state_to = LAT }
     }
 }
 country_event = { #Valge Mõõk
@@ -573,5 +591,6 @@ country_event = { #Tartu Rahu
         name = EST_events.26.opt
         ai_chance = { factor = 100 }
         add_political_power = 10
+        white_peace = SOV
     }
 }

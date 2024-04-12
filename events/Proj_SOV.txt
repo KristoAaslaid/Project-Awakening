@@ -19,5 +19,29 @@ country_event = {
         name = Proj_SOV.1.opt
         ai_chance = { base = 100 }
         declare_war_on = { type = annex_everything    target = EST }
+        declare_war_on = { type = annex_everything    target = LAT }
+    }
+}
+
+country_event = {
+    id = Proj_SOV.2
+    title = Proj_SOV.2.title
+    desc = Proj_SOV.2.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = SOV
+    }
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = Proj_SOV.2.opt
+        ai_chance = { base = 100 }
+        22 = { set_state_controller_to = SOV }
+        15 = { set_state_controller_to = SOV }
     }
 }
