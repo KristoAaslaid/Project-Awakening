@@ -1,0 +1,81 @@
+ideas = {
+    country = {
+        sov_buff = {
+            picture = SOV_war_heroes
+            
+            allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.05
+                experience_gain_army = 0.1
+			}
+        }
+        sov_buff_1 = {
+            picture = SOV_war_heroes
+            
+            allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.05
+                army_org_factor = 0.05
+                offence = 0.25
+                army_core_defence_factor = 0.2
+                army_speed_factor = 0.15
+                army_org_regain = 0.1
+                breakthrough_factor = 0.1
+                ai_focus_aggressive_factor = 0.5
+			}
+        }
+        sov_buff_2 = {
+            picture = SOV_war_heroes
+            
+            allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.05
+                army_morale = 5
+                army_org_factor = 0.05
+                army_speed_factor = 0.15
+                army_org_regain = 0.1
+			}
+        }
+        sov_buff_3 = {
+            picture = SOV_war_heroes
+            
+            allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.05
+                army_morale = 5
+                army_org_factor = 0.05
+                army_speed_factor = 0.15
+                army_org_regain = 0.1
+                ai_focus_defensive_factor = 0.5
+			}
+        }
+    }
+}

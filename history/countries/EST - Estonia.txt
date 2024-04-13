@@ -41,6 +41,7 @@ add_ideas = {
 	EST_jaan_poska_minister
 	EST_juhan_kukk_minister
 	EST_peeter_pold_minister
+	eestikaitseliit_1
 }
 
 set_convoys = 5

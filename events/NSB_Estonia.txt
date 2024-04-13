@@ -199,6 +199,10 @@ country_event = { #Vastupealetung
         name = EST_events.9.opt
         ai_chance = { factor = 100 }
         add_political_power = 10
+        swap_ideas = {
+            remove_idea = eestikaitseliit_1
+            add_idea = eestikaitseliit_2
+        }
     }
 }
 country_event = { #Utria Dessant
@@ -265,6 +269,10 @@ country_event = { #Paju Lahing
         name = EST_events.12.opt
         ai_chance = { factor = 100 }
         add_political_power = 10
+        swap_ideas = {
+            remove_idea = eestikaitseliit_2
+            add_idea = eestikaitseliit_3
+        }
     }
 }
 country_event = { #Saaremaa mäss
@@ -357,6 +365,10 @@ country_event = { #Landeswehri sõja algus
         name = EST_events.16.opt
         ai_chance = { factor = 100 }
         add_political_power = 10
+        swap_ideas = {
+            remove_idea = eestikaitseliit_3
+            add_idea = eestikaitseliit_4
+        }
     }
 }
 country_event = { #Vaherahu LW-Eesti
