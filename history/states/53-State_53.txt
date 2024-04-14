@@ -37,7 +37,7 @@ state = {
 		2227
 	}
 	buildings_max_level_factor = 1
-	manpower = 1
+	manpower = 37557
 	state_category = town
 	history = {
 		owner = SOV
