@@ -537,6 +537,9 @@ country_event = { #Trotski-Kamenev
         name = EST_events.23.opt
         ai_chance = { factor = 100 }
         add_political_power = 10
+        add_ideas = {
+            eestimoraal
+        }
     }
 }
 country_event = { #VK taganemine, op end
@@ -604,5 +607,8 @@ country_event = { #Tartu Rahu
         ai_chance = { factor = 100 }
         add_political_power = 10
         white_peace = SOV
+        remove_ideas = {
+            eestimoraal
+        }
     }
 }

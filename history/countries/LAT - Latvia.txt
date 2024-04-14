@@ -2,6 +2,10 @@ capital = 1
 
 recruit_character = LAT_karlis_ulmanis
 
+add_ideas = {
+	latviamilitary
+}
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1932.5.21"

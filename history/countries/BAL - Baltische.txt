@@ -2,6 +2,10 @@ capital = 1
 
 recruit_character = BAL_rudiger_von_der_goltz
 
+add_ideas = {
+	BAL_landeswehr
+}
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1932.5.21"

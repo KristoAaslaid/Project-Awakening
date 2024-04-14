@@ -77,5 +77,38 @@ ideas = {
                 ai_focus_defensive_factor = 0.5
 			}
         }
+		sov_buff_home = {
+            picture = SOV_stakhanovite_movement
+            
+            allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				army_core_defence_factor = 0.4
+				max_dig_in = 10
+			}
+        }
+		sov_buff_home_2 = {
+            picture = SOV_stakhanovite_movement
+            
+            allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				army_core_defence_factor = 0.4
+				army_core_attack_factor = 0.2
+				max_dig_in = 10
+			}
+        }
     }
 }

@@ -49,3 +49,118 @@ country_event = {
         15 = { set_state_controller_to = SOV }
     }
 }
+
+country_event = {
+    id = Proj_SOV.3
+    title = Proj_SOV.3.title
+    desc = Proj_SOV.3.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = SOV
+    }
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = Proj_SOV.3.opt
+        ai_chance = { base = 100 }
+        swap_ideas = {
+            remove_idea = sov_buff_1
+            add_idea = sov_buff_2
+        }
+    }
+}
+
+country_event = {
+    id = Proj_SOV.4
+    title = Proj_SOV.4.title
+    desc = Proj_SOV.4.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = SOV
+    }
+    mean_time_to_happen = {
+        days = 1
+    }
+    option = {
+        name = Proj_SOV.4.opt
+        ai_chance = { base = 100 }
+        swap_ideas = {
+            remove_idea = sov_buff_2
+            add_idea = sov_buff_3
+        }
+    }
+}
+
+country_event = {
+    id = Proj_SOV.5
+    title = Proj_SOV.5.title
+    desc = Proj_SOV.5.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = SOV
+    }
+    mean_time_to_happen = {
+        days = 1
+    }
+    option = {
+        name = Proj_SOV.5.opt
+        ai_chance = { base = 100 }
+        add_ideas = { sov_buff_home }
+    }
+}
+
+country_event = {
+    id = Proj_SOV.6
+    title = Proj_SOV.6.title
+    desc = Proj_SOV.6.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = SOV
+    }
+    mean_time_to_happen = {
+        days = 1
+    }
+    option = {
+        name = Proj_SOV.6.opt
+        ai_chance = { base = 100 }
+        swap_ideas = {
+            remove_idea = sov_buff_home
+            add_idea = sov_buff_home_2
+        }
+    }
+}
+
+country_event = {
+    id = Proj_SOV.7
+    title = Proj_SOV.7.title
+    desc = Proj_SOV.7.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = SOV
+    }
+    mean_time_to_happen = {
+        days = 1
+    }
+    option = {
+        name = Proj_SOV.7.opt
+        ai_chance = { base = 100 }
+        remove_ideas = { sov_buff_home_2 }
+    }
+}

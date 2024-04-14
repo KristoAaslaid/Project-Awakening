@@ -5,6 +5,26 @@
   Proj_SOV.2.title:0 "Läti Kaotus"  
   Proj_SOV.2.desc:0 "Landeswehr ja Eesti väed on võtnud Läti üle, meil pole seal enam asja."
   Proj_SOV.2.opt:0 "Taganeme, praeguseks."
+  Proj_SOV.3.title:0 "Eesti vastupealetung"  
+  Proj_SOV.3.desc:0 "Vene Punaarmee ei jõudnud Tallinna enne kui Eesti jõudis oma sõjaväe korda teha ja hakata tegema üldist vastupealetungi. See alustas terve Eesti vabastamisega Punaarmee käest."
+  Proj_SOV.3.opt:0 "Me ei saa kaotada! Kutsu abiväge!"
+  Proj_SOV.4.title:0 "Eesti aladest väljalükkamine"  
+  Proj_SOV.4.desc:0 "Peale Eesti üldpealetungi kaotas Punaarmee kõik alad Eesti territooriumil. Punaarmee nüüd kaitses ennast Valgekaartlaste ja eestlaste eest."
+  Proj_SOV.4.opt:0 "Petrograd on meie selja taga!"
+  Proj_SOV.5.title:0 "Suurenenud kaitse"  
+  Proj_SOV.5.desc:0 "Vaadates ohtu Valgekaartlaste ja eestlaste sõjavägedelt, keskendus Punaarmee seal kaitsele rohkem kui rünnakutele."
+  Proj_SOV.5.opt:0 "Punaarmee hoiab!"
+  Proj_SOV.6.title:0 "Trotski-Kamenev"  
+  Proj_SOV.6.desc:0 "Lev Trotski kohale ilmumisega ja Lev Kamenevi direktiiviga seoses sai Punaarmee Petrogradi juures abivägesi ja suutis teha vastupealetungi."
+  Proj_SOV.6.opt:0 "Edasi!"
+  Proj_SOV.7.title:0 "Vene alad on Punaarmee käes"  
+  Proj_SOV.7.desc:0 "Vastupealetung oli väga edukas ja suutis Valgekaartlaste väed purustada. Tänu sellele jõudis Punaarmee isegi tagasi Eesti piirini."
+  Proj_SOV.7.opt:0 "Väga hea."
+  #LAT
+  Proj_LAT.1.title:0 "Vabadussõja algus"  
+  Proj_LAT.1.desc:0 "18.nov 1918 algas Läti vabadussõda kuna Läti kuulutas välja iseseisvuse. 1.dec 1918 muutus seis ohtlikuks kuna Punaarmee tungis Läti aladele tahtmisega püstitada uus võim aga Lätil ei olnud veel piisavalt sõdureid, et vastu hakata."
+  Proj_LAT.1.opt:0 "Me peame Landeswehriga kokkuleppe tegema."
+  #BAL
   #Landeswehr joins Latvia
   Proj_BAL.1.title:0 "Läti kaitse"  
   Proj_BAL.1.desc:0 "Landeswehr kaitses Lätit Nõukogude Venemaa eest."
@@ -21,7 +41,7 @@
   Proj_BAL.4.title:0 "Eestiga Sõda jätkub"  
   Proj_BAL.4.desc:0 "Landeswehr jätkas Eestiga Landeswehri sõja."
   Proj_BAL.4.opt:0 "Edasi."
-#start-up event
+  #start-up event
   EST_events.1.title:0 "Compiègne’i vaherahu ja Eesti Ajutine Valitsus" 
   EST_events.1.desc:0 "11.nov 1918, on üks rohkem tuntumaid kuupäevi terves Maailmas. Sellel päeval kirjutasid Antant ja Saksamaa omavahel Compiègne’i vaherahu, mis lõpetas sõjategevuse läänerindel ja on praktiliselt Esimese maailmasõja lõpu alguspunkt. \nSama päev on aga samuti Eestile ka tähtis, kuna Eesti Ajutine Valitsus alustas uuesti oma tegevust. Eesti Ajutise Valitsuse juhiks sai ajutiselt Jaan Poska. Saksamaa esindajad annavad ka samal päeval kõrgema poliitilise võimu Eesti Ajutise Valitsusele. \nÜks esimesi tegevusi, mida Ajutine Valitsus tegi, oli Saksa poolt loodud Omakaitse laialisaatmine ning Eesti Kaitse Liidu moodustamine, mille ülemaks saab kindralmajor Ernst-Johannes Põdder." 
   EST_events.1.opt:0 "Elagu Eesti!" 

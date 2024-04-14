@@ -1,0 +1,25 @@
+add_namespace = Proj_LAT
+
+country_event = {
+    id = Proj_LAT.1
+    title = Proj_LAT.1.title
+    desc = Proj_LAT.1.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = LAT
+    }
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = Proj_LAT.1.opt
+        ai_chance = { base = 100 }
+        add_ideas = {
+            latviadependency
+        }
+    }
+}

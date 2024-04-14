@@ -1,0 +1,23 @@
+ideas = {
+    country = {
+        BAL_landeswehr = {
+            picture = ger_revive_the_kaiserreich
+            allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				army_org = 5
+				max_planning = 0.25
+				army_morale = 5
+                conscription_factor = 0.2
+				offence = 0.1
+				defence = 0.1
+			}
+        }
+    }
+}

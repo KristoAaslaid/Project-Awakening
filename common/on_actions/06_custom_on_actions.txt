@@ -40,6 +40,14 @@ on_actions = {
             }
         }
         effect = {
+            LAT = {
+                country_event = {
+                    id = Proj_LAT.1
+                    days = 17
+                }
+            }
+        }
+        effect = {
             EST = {
                 country_event = {
                     id = EST_events.4
@@ -88,6 +96,14 @@ on_actions = {
             }
         }
         effect = {
+            SOV = {
+                country_event = {
+                    id = Proj_SOV.3
+                    days = 54
+                }
+            }
+        }
+        effect = {
             EST = {
                 country_event = { #Utria
                     id = EST_events.10
@@ -128,6 +144,14 @@ on_actions = {
             }
         }
         effect = {
+            SOV = {
+                country_event = {
+                    id = Proj_SOV.4
+                    days = 105
+                }
+            }
+        }
+        effect = {
             EST = {
                 country_event = { #LW Riia
                     id = EST_events.15
@@ -148,6 +172,14 @@ on_actions = {
                 country_event = {
                     id = Proj_SOV.2
                     days = 132
+                }
+            }
+        }
+        effect = {
+            SOV = {
+                country_event = {
+                    id = Proj_SOV.5
+                    days = 160
                 }
             }
         }
@@ -232,10 +264,26 @@ on_actions = {
             }
         }
         effect = {
+            SOV = {
+                country_event = {
+                    id = Proj_SOV.6
+                    days = 350
+                }
+            }
+        }
+        effect = {
             EST = {
                 country_event = { #VK taganemine
                     id = EST_events.24
                     days = 367
+                }
+            }
+        }
+        effect = {
+            SOV = {
+                country_event = {
+                    id = Proj_SOV.7
+                    days = 370
                 }
             }
         }

@@ -1,0 +1,36 @@
+ideas = {
+    country = {
+        latviamilitary = {
+            picture = LAT_saeimas_military
+            allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				army_org = -5
+				max_planning = -0.5
+				army_morale = -10
+                conscription_factor = -0.3
+			}
+        }
+        latviadependency = {
+            picture = ast_volunteer_defence_corps
+            allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				political_power_cost = 0.5
+                stability_factor = -0.2
+			}
+        }
+    }
+}
