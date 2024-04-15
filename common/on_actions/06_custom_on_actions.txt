@@ -18,6 +18,14 @@ on_actions = {
         effect = {
             EST = {
                 country_event = {
+                    id = EST_events.27
+                    days = 16
+                }
+            }
+        }
+        effect = {
+            EST = {
+                country_event = {
                     id = EST_events.3
                     days = 17
                 }
@@ -148,6 +156,14 @@ on_actions = {
                 country_event = {
                     id = Proj_SOV.4
                     days = 105
+                }
+            }
+        }
+        effect = {
+            EST = {
+                country_event = { #Otto Strandmani valitsus
+                    id = EST_events.28
+                    days = 118
                 }
             }
         }
@@ -289,6 +305,14 @@ on_actions = {
         }
         effect = {
             EST = {
+                country_event = { #Strandmani -> Tõnissoni
+                    id = EST_events.29
+                    days = 382
+                }
+            }
+        }
+        effect = {
+            EST = {
                 country_event = { #Narva Kaitselahingud
                     id = EST_events.25
                     days = 379
@@ -297,9 +321,9 @@ on_actions = {
         }
         effect = {
             EST = {
-                country_event = { #Narva Kaitselahingud
+                country_event = { #Tartu Rahu
                     id = EST_events.26
-                    days = 379
+                    days = 458
                 }
             }
         }

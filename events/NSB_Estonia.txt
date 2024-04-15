@@ -153,8 +153,55 @@ country_event = { #Vabatahtlikud
 
     option = {
         name = EST_events.7.opt
+        custom_effect_tooltip = EST_events.7.cet
         ai_chance = { factor = 100 }
-        add_political_power = 10
+        hidden_effect = {
+            create_corps_commander = {
+            name=EST_hans_kalm
+            portrait_path = "gfx/leaders/EST/EST_hans_kalm.dds"
+            desc= EST_hans_kalm_desc
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+            traits = { }
+            }
+            create_corps_commander = {
+                name=EST_constantin_von_weiss
+                portrait_path = "gfx/leaders/EST/EST_constantin_von_weiss.dds"
+                desc= EST_constantin_von_weiss_desc
+                skill = 2
+                attack_skill = 2
+                defense_skill = 2
+                planning_skill = 2
+                logistics_skill = 2
+                traits = { }
+            }
+            create_corps_commander = {
+                name=EST_martin_ekstrom
+                portrait_path = "gfx/leaders/EST/EST_martin_ekstrom.dds"
+                desc= EST_martin_ekstrom_desc
+                skill = 2
+                attack_skill = 2
+                defense_skill = 2
+                planning_skill = 2
+                logistics_skill = 2
+                traits = { }
+            }
+            create_corps_commander = {
+                name =EST_richard_borgelin
+                portrait_path = "gfx/leaders/EST/EST_richard_borgelin.dds"
+                desc = EST_richard_borgelin_desc
+                skill = 2
+                attack_skill = 2
+                defense_skill = 2
+                planning_skill = 2
+                logistics_skill = 2
+                traits = { }
+            }
+        }
+        
     }
 }
 country_event = { #2/3
@@ -610,5 +657,124 @@ country_event = { #Tartu Rahu
         remove_ideas = {
             eestimoraal
         }
+    }
+}
+country_event = { #Politician Switch I-II ajutine -> III ajutine.
+    id = EST_events.27
+    title = EST_events.27.title
+    desc = EST_events.27.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.27.opt
+        ai_chance = { factor = 100 }
+        custom_effect_tooltip = EST_events.27.cet
+        hidden_effect = {
+            remove_ideas = {
+            EST_peeter_pold_minister
+            }
+            add_ideas = {
+                EST_harald_laksberg_minister
+            }
+        }
+        
+    }
+}
+country_event = { #Politician Switch III ajutine -> Otto Strandman.
+    id = EST_events.28
+    title = EST_events.28.title
+    desc = EST_events.28.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.28.opt
+        ai_chance = { factor = 100 }
+        custom_effect_tooltip = EST_events.28.cet
+        hidden_effect = {
+            remove_ideas = {
+            EST_harald_laksberg_minister
+            }
+            add_ideas = {
+                EST_johannes_kartau_minister
+            }
+            retire_country_leader = yes
+            create_country_leader = {
+                name = EST_otto_strandman
+                picture = "gfx/leaders/EST/govpol/EST_otto_strandman_large.dds"
+                ideology = oligarchism
+                desc = EST_otto_strandman_desc
+                expire="1965.1.1.1"
+                id=-1
+                traits = {
+                    kokkuhoidlik_minister
+                }
+            }
+        }
+        
+    }
+}
+country_event = { #Politician Switch Otto Strandman -> Tõnissoni esimene.
+    id = EST_events.29
+    title = EST_events.29.title
+    desc = EST_events.29.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.29.opt
+        custom_effect_tooltip = EST_events.29.cet
+        ai_chance = { factor = 100 }
+        hidden_effect = {
+          remove_ideas = {
+            EST_johannes_kartau_minister
+            EST_jaan_poska_minister
+            }
+            add_ideas = {
+                EST_konstantin_treffner_minister
+                EST_ado_birk_minister
+            }
+            retire_country_leader = yes
+            create_country_leader = {
+                name = EST_jaan_tonisson
+                picture = "gfx/leaders/EST/govpol/EST_jaan_tonisson_large.dds"
+                ideology = oligarchism
+                desc = EST_jaan_tonisson_desc
+                expire="1965.1.1.1"
+                id=-1
+                traits = {
+                    vana_jaan
+                }
+            }  
+        }
+        
     }
 }
