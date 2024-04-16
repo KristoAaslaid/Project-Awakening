@@ -16,10 +16,9 @@ country_event = {
         tag = EST
     }
 
-    option = {
+    option = {  
         name = EST_events.1.opt
         ai_chance = { factor = 100 }
-        add_political_power = 10
     }
 }
 #Britain Pledges Military Aid
@@ -42,7 +41,7 @@ country_event = {
     option = {
         name = EST_events.2.opt
         ai_chance = { factor = 100 }
-        add_political_power = 10
+        add_stability = 0.2
     }
 }
 #Narva Battle
@@ -65,7 +64,9 @@ country_event = {
     option = {
         name = EST_events.3.opt
         ai_chance = { factor = 100 }
-        add_political_power = 10
+        add_stability = -0.15
+        add_war_support = 0.25
+        add_manpower = 14000
         set_country_flag = warstart_superevent
     }
 }#Viimased Saksa
@@ -88,7 +89,8 @@ country_event = {
     option = {
         name = EST_events.4.opt
         ai_chance = { factor = 100 }
-        add_political_power = 10
+        add_political_power = 50
+        add_stability = 0.10
     }
 }#SB Laevastik 
 country_event = {
@@ -111,6 +113,11 @@ country_event = {
         name = EST_events.5.opt
         ai_chance = { factor = 100 }
         add_political_power = 10
+        add_equipment_to_stockpile = {
+            type = infantry_equipment
+            amount = 6807
+            producer = ENG
+        }
     }
 }
 country_event = { #Laidoner ja Mobilisatsioon
@@ -132,7 +139,7 @@ country_event = { #Laidoner ja Mobilisatsioon
     option = {
         name = EST_events.6.opt
         ai_chance = { factor = 100 }
-        add_political_power = 10
+        add_manpower = 13500
     }
 }
 country_event = { #Vabatahtlikud
@@ -223,7 +230,7 @@ country_event = { #2/3
     option = {
         name = EST_events.8.opt
         ai_chance = { factor = 100 }
-        add_political_power = 10
+        add_war_support = 0.5
     }
 }
 country_event = { #Vastupealetung
@@ -245,7 +252,7 @@ country_event = { #Vastupealetung
     option = {
         name = EST_events.9.opt
         ai_chance = { factor = 100 }
-        add_political_power = 10
+        add_stability = 0.4
         swap_ideas = {
             remove_idea = eestikaitseliit_1
             add_idea = eestikaitseliit_2
@@ -271,7 +278,14 @@ country_event = { #Utria Dessant
     option = {
         name = EST_events.10.opt
         ai_chance = { factor = 100 }
-        add_political_power = 10
+        set_province_controller = 601
+        39 = {
+            create_unit = {
+                division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5"
+                owner = EST
+                prioritize_location = 601
+            }
+        }
     }
 }
 country_event = { #Narva Vabastamine
@@ -293,7 +307,8 @@ country_event = { #Narva Vabastamine
     option = {
         name = EST_events.11.opt
         ai_chance = { factor = 100 }
-        add_political_power = 10
+        add_stability = 0.25
+        add_war_support = 0.25
     }
 }
 country_event = { #Paju Lahing
@@ -315,7 +330,7 @@ country_event = { #Paju Lahing
     option = {
         name = EST_events.12.opt
         ai_chance = { factor = 100 }
-        add_political_power = 10
+        add_war_support = 0.2
         swap_ideas = {
             remove_idea = eestikaitseliit_2
             add_idea = eestikaitseliit_3
@@ -341,7 +356,8 @@ country_event = { #Saaremaa mäss
     option = {
         name = EST_events.13.opt
         ai_chance = { factor = 100 }
-        add_political_power = 10
+        add_stability = -0.3
+        add_manpower = -169
     }
 }
 country_event = { #Laidoneri ettekanne
@@ -363,7 +379,11 @@ country_event = { #Laidoneri ettekanne
     option = {
         name = EST_events.14.opt
         ai_chance = { factor = 100 }
-        add_political_power = 10
+        add_equipment_to_stockpile = {
+            type = artillery_equipment
+            amount = 40
+        }
+        add_stability = 0.2
     }
 }
 country_event = { #Riia Landeswehr
@@ -385,7 +405,6 @@ country_event = { #Riia Landeswehr
     option = {
         name = EST_events.15.opt
         ai_chance = { factor = 100 }
-        add_political_power = 10
         add_to_war = {
             targeted_alliance = LAT
             enemy = SOV
@@ -411,7 +430,6 @@ country_event = { #Landeswehri sõja algus
     option = {
         name = EST_events.16.opt
         ai_chance = { factor = 100 }
-        add_political_power = 10
         swap_ideas = {
             remove_idea = eestikaitseliit_3
             add_idea = eestikaitseliit_4
@@ -437,7 +455,7 @@ country_event = { #Vaherahu LW-Eesti
     option = {
         name = EST_events.17.opt
         ai_chance = { factor = 100 }
-        add_political_power = 10
+        add_political_power = 50
         white_peace = BAL
         set_truce = {
             target = BAL
@@ -466,7 +484,7 @@ country_event = { #Vaherahu katkemine
     option = {
         name = EST_events.18.opt
         ai_chance = { factor = 100 }
-        add_political_power = 10
+        add_war_support = 0.10
     }
 }
 country_event = { #Võnnu
@@ -488,7 +506,6 @@ country_event = { #Võnnu
     option = {
         name = EST_events.19.opt
         ai_chance = { factor = 100 }
-        add_political_power = 10
     }
 }
 country_event = { #LW sõja lõpp
