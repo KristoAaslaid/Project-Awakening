@@ -1,0 +1,12 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_PB_Orignal_Station_cover"
+		textureFile = "gfx/PB_Orignal_Station_cover.dds"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_PB_Original_Station_Faceplate"
+		textureFile = "gfx//PB_Oldies_Faceplate.dds"
+	}
+}

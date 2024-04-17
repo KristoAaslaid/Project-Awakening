@@ -160,3 +160,29 @@ music = {
 	file = "Under_Veils_Of_Secrets.ogg"
 	volume = 0.65
 }
+
+# Project Awakening
+
+music = {
+	name = "pa_song_marss_kodumaa"
+	file = "marss_kodumaa.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "pa_song_pill_oll_hell"
+	file = "pill_oll_hell.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "pa_song_soduritruudus"
+	file = "soduritruudus.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "pa_song_viljandi_paadimees"
+	file = "viljandi_paadimees.ogg"
+	volume = 0.65
+}

@@ -1,0 +1,26 @@
+music_station = "project_awakening"
+
+music = {
+	song = maintheme
+	chance = { factor = 0 }
+}
+
+music = {
+	song = pa_song_marss_kodumaa
+	chance = { factor = 1 }
+}
+
+music = {
+	song = pa_song_pill_oll_hell
+	chance = { factor = 1 }
+}
+
+music = {
+	song = pa_song_soduritruudus
+	chance = { factor = 1 }
+}
+
+music = {
+	song = pa_song_viljandi_paadimees
+	chance = { factor = 1 }
+}
