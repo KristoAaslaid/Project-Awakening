@@ -14,7 +14,7 @@ technologies = {
 			ship_fire_control_system_0
 		}
 		research_cost = 1
-		start_year = 1936
+		start_year = 1918
 		folder = {
 			name = electronics_folder
 			position = {
@@ -106,7 +106,7 @@ technologies = {
 		# small boost to research speed
 		research_speed_factor = 0.05
 		research_cost = 2.5
-		start_year = 1938
+		start_year = 1920
 		folder = {
 			name = electronics_folder
 			position = {

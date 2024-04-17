@@ -14,7 +14,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 1918
 		folder = {
 			name = industry_folder
 			position = {
@@ -42,7 +42,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1.5
-		start_year = 1937
+		start_year = 1918
 		folder = {
 			name = industry_folder
 			position = {
@@ -69,7 +69,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 2
-		start_year = 1939
+		start_year = 1919
 		folder = {
 			name = industry_folder
 			position = {
@@ -104,7 +104,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 2
-		start_year = 1941
+		start_year = 1920
 		folder = {
 			name = industry_folder
 			position = {
@@ -128,7 +128,7 @@ technologies = {
 		production_factory_max_efficiency_factor = 0.1
 		line_change_production_efficiency_factor = 0.2
 		research_cost = 2.5
-		start_year = 1943
+		start_year = 1921
 		XOR = {
 			streamlined_line
 		}
@@ -155,7 +155,7 @@ technologies = {
 		production_factory_max_efficiency_factor = 0.1
 		production_factory_efficiency_gain_factor = 0.1
 		research_cost = 2.5
-		start_year = 1943
+		start_year = 1921
 		XOR = {
 			flexible_line
 		}
@@ -189,7 +189,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 2
-		start_year = 1937
+		start_year = 1918
 		folder = {
 			name = industry_folder
 			position = {
@@ -218,7 +218,7 @@ technologies = {
 	advanced_equipment_conversion = {
 		equipment_conversion_speed = 0.4
 		research_cost = 2
-		start_year = 1939
+		start_year = 1919
 		folder = {
 			name = industry_folder
 			position = {
@@ -314,7 +314,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 2
-		start_year = 1937
+		start_year = 1918
 		folder = {
 			name = industry_folder
 			position = {
@@ -346,7 +346,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 2
-		start_year = 1939
+		start_year = 1919
 		folder = {
 			name = industry_folder
 			position = {
@@ -378,7 +378,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 2
-		start_year = 1941
+		start_year = 1920
 		folder = {
 			name = industry_folder
 			position = {
@@ -406,7 +406,7 @@ technologies = {
 		industrial_capacity_dockyard = 0.1
 		global_building_slots_factor = 0.2
 		research_cost = 2
-		start_year = 1943
+		start_year = 1921
 		folder = {
 			name = industry_folder
 			position = {
@@ -506,7 +506,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 2
-		start_year = 1937
+		start_year = 1918
 		folder = {
 			name = industry_folder
 			position = {
@@ -541,7 +541,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 2
-		start_year = 1939
+		start_year = 1919
 		folder = {
 			name = industry_folder
 			position = {
@@ -576,7 +576,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 2
-		start_year = 1941
+		start_year = 1920
 		folder = {
 			name = industry_folder
 			position = {
@@ -607,7 +607,7 @@ technologies = {
 		industry_air_damage_factor = -0.1
 		global_building_slots_factor = 0.2
 		research_cost = 2
-		start_year = 1943
+		start_year = 1921
 		folder = {
 			name = industry_folder
 			position = {
@@ -724,7 +724,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 2
-		start_year = 1936
+		start_year = 1918
 		categories = {
 			industry
 			construction_tech
@@ -800,7 +800,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 2
-		start_year = 1937
+		start_year = 1918
 		categories = {
 			industry
 			construction_tech
@@ -826,7 +826,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 2
-		start_year = 1937
+		start_year = 1918
 		categories = {
 			industry
 			construction_tech
@@ -877,7 +877,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 2
-		start_year = 1939
+		start_year = 1919
 		categories = {
 			industry
 			construction_tech
@@ -911,7 +911,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 2
-		start_year = 1939
+		start_year = 1919
 		categories = {
 			industry
 			construction_tech
@@ -962,7 +962,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 2
-		start_year = 1941
+		start_year = 1920
 		categories = {
 			industry
 			construction_tech
@@ -988,7 +988,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 2
-		start_year = 1941
+		start_year = 1920
 		categories = {
 			industry
 			construction_tech
@@ -1035,7 +1035,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 2
-		start_year = 1943
+		start_year = 1921
 		categories = {
 			industry
 			construction_tech
@@ -1061,7 +1061,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 2
-		start_year = 1943
+		start_year = 1921
 		categories = {
 			industry
 			construction_tech

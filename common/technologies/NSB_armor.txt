@@ -132,7 +132,7 @@ technologies = {
 		}
 		show_effect_as_desc = yes
 		research_cost = 1
-		start_year = 1936
+		start_year = 1918
 		folder = {
 			name = nsb_armour_folder
 			position = {
@@ -177,7 +177,7 @@ technologies = {
 		}
 		show_effect_as_desc = yes
 		research_cost = 1
-		start_year = 1934
+		start_year = 1918
 		folder = {
 			name = nsb_armour_folder
 			position = {

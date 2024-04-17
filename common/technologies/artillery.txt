@@ -75,7 +75,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 1919
 		folder = {
 			name = artillery_folder
 			position = {
@@ -121,7 +121,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		start_year = 1939
+		start_year = 1919
 		folder = {
 			name = artillery_folder
 			position = {
@@ -175,7 +175,7 @@ technologies = {
 			soft_attack = 0.1
 		}
 		research_cost = 1
-		start_year = 1940
+		start_year = 1920
 		folder = {
 			name = artillery_folder
 			position = {
