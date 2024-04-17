@@ -69,6 +69,7 @@
   EST_events.7.title:0 "Teiste riikide vabatahtlikud jõuavad Tallinnasse" 
   EST_events.7.desc:0 "30.dets 1918 jõudsid esimesed Soome vabatahtlikud Tallinna, nende juhiks oli Martin Ekström. \nUmbes samal ajal moodustusid kohalikud baltisakslased Balti pataljoni Konstantin Weissi juhtimisel. Need kaks vabatahtlike väge olid ainult esimesed, mis jõuavad Eesti vägede koosseisu ja toetavad Eestit oma vabadussõjas. Peale nende ühinevad veel Ingeri, Läti, Rootsi ja Taani vabatahtlikud ning Eesti väed moodustavad lepingu ka veel Valgekaartlastega, Vene Keisririigi sõjaväe järgi jääva osaga." 
   EST_events.7.opt:0 "Abi on alati teretulnud."
+  EST_events.7.cet:0 "Hans Kalm, Constantin von Weiss, Martin Ekström ja Richard Borgelin tulid vabatahtlike juhtidena."
   #2/3 vallutatud
   EST_events.8.title:0 "Punaarmee on vallutanud enamus Eestit" 
   EST_events.8.desc:0 "31.dets 1918 oli Nõukogude Punaarmee juba vallutanud 2/3 Eesti territooriumist ja ähvardab vabadussõja lõpetada Eesti iseseisvuse kaotamisega. Eesti väed olid aga selle ajaga massiivselt suurenenud ning paremini relvastanud ning suutnud Punaarmee pealetungi peatada enne kui nad Tallinna suudavad ära vallutada." 
@@ -145,3 +146,18 @@
   EST_events.26.title:0 "Tartu Rahu" 
   EST_events.26.desc:0 "2. Veebruar 1920 sõlmiti Eesti ja Nõukogude Venemaa vahel Tartus rahvusvaheline leping, millega lõpetati Eesti Vabadussõda, määrati Eesti idapiir ning Nõukogude Venemaa tunnustas Eesti Vabariigi iseseisvust. \nEsimese ettepaneku sellise vaherahu sõlmimiseks esitas Venemaa 25.juulil, 1919 aga seoses Operatsioon Valge Mõõga läbikukkumisega, selle esimese ettepaneku protsessi ei jätkatud Venemaa poolt.  \nTartu Rahu läbirääkimised võtsid väga kaua aega ning kuna mõlemad osapooled tahtsid väga erinevaid nõudmisi, oli võimalus läbirääkimiste katkemises. Tartu Rahu näitas teistele riikidele, et Nõukogude Venemaaga on võimalik läbirääkimisi pidada ja rahvusvahelisi lepinguid sõlmida."
   EST_events.26.opt:0 "Eesti on nüüd vaba ja iseseisev!"
+  #I-II -> III valitsus
+  EST_events.27.title:0 "Ajutise Valitsuse Vahetus" 
+  EST_events.27.desc:0 "Eesti Ajutine Valitsus oli Eesti Vabariigi täidesaatva võimu organ 24. veebruarist 1918 – 8. maini 1919. Maanõukogu Vanematekogu otsustas 19. veebruaril 1918 asutada kolmeliikmelise Eestimaa Päästekomitee, kelle kätte anti riiklik võim. Päästekomitee liikmed olid Konstantin Päts, Jüri Vilms ja Konstantin Konik. Samal päeval võeti ka vastu otsus iseseisva Eesti Vabariigi väljakuulutamise kohta, mis toimus Manifestiga kõigile Eestimaa rahvastele 24. veebruaril 1918. \n\nEestimaa Päästekomitee moodustas 24. veebruaril 1918 13-liikmelise Ajutise Valitsuse eesotsas Konstantin Pätsiga (kaasa arvatud Konstantin Päts, kes esineb nimekirjas kaks korda, ja kolm vakantset ametikohta). Ajutise Valitsuse valitsuskoalitsioonis osalesid Maaliit, Eesti Demokraatlik Erakond, Eesti Sotsiaaldemokraatlik Tööliste Partei ja Tööerakond. \n\nPärast Saksa võimu langemist moodustati 12. novembril 1918 teine Ajutine Valitsus, kus Päts oli pea- ja siseminister. 12. novembril otsustas Ajutine Valitsus luua ka regulaarsõjaväe, mille juhtorganiks oli Peastaap kindral Larka juhtimisel.  \n\n27. novembril 1918 kujundati Maanõukogu rühmade kokkuleppel teise Ajutise valitsuse koosseis ümber, seega asus Vabadussõja puhkemise eelõhtul valitsema kolmas koosseis, kus peaminister Päts võttis enda peale ka sõjaministri kohustused, kindral Andres Larka jäi tema abiks. \n\nPraegu astub valitsema III ajutine valitsus."
+  EST_events.27.opt:0 "Päts kolmandat korda!"
+  EST_events.27.cet:0 "III Eesti Ajutine Valitsus hakkab riiki juhtima."
+  #III -> Otto Strandman I valitsus
+  EST_events.28.title:0 "Valitsuse Vahetus, Otto Strandmani valitsus" 
+  EST_events.28.desc:0 "5.–7. aprillini 1919 toimusid Asutava Kogu valimised. Ajutise valitsus tegevus lõppes 8. mail 1919, mil Asutav Kogu kinnitas ametisse esimese Vabariigi Valitsuse eesotsas Otto Strandmaniga. Tegemist oli algselt laia koalitsiooniga kolmest Asutava Kogu suurimast fraktsioonist - ESDTP, Tööerakonnast ning Rahvaerakonnast. 20. septembril 1919 lahkus valitsusest Rahvaerakond ning kuigi kaheparteiline koalitsioon pidas vastu veel ligi kaks kuud, kukkus Otto Strandmani esimene valitsus lõpuks siiski 18. novembril 1919. aastal."
+  EST_events.28.opt:0 "Eestil on nüüd esimene Vabariigi Valitsus!"
+  EST_events.28.cet:0 "Otto Strandmani valitsus hakkab riiki juhtima."
+  #Otto Strandman I -> Jaan Tõnissoni I valitsus
+  EST_events.29.title:0 "Valitsuse Vahetus, Jaan Tõnissoni valitsus" 
+  EST_events.29.desc:0 "Jaan Tõnissoni valitsus oli Eesti Vabariigi Valitsus 18. novembrist 1919 kuni 28. juulini 1920. Jaan Tõnissoni valitsus oli kolmas valitsus alates Eesti Vabariigi asutamisest. Strandmani valitsus oma tagasiastumise põhjust ei teatanud, ja uus valitsus, kus olid nii kodanlased kui ka sotsialistid, võeti Asutavas Kogus vastu kahtlustega nii vasakult kui ka paremalt tiivalt."
+  EST_events.29.opt:0 "Vana Jaan on nüüd juhiks."
+  EST_events.29.cet:0 "Jaan Tõnissoni valitsus hakkab riiki juhtima."
