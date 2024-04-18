@@ -1,7 +1,6 @@
-capital = 1
-
+capital = 35
+oob = "SOV"
 recruit_character = SOV_vladimir_lenin
-
 add_ideas = {
 	limited_conscription
 	sov_buff
@@ -13,6 +12,7 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
 	democratic = 10
 	fascism = 5

@@ -1,6 +1,5 @@
-capital = 21
+capital = 38
 oob = "EST_1936"
-
 if = {
 	limit = {
 		has_dlc = "Arms Against Tyranny"
@@ -9,7 +8,6 @@ if = {
 }
 
 set_research_slots = 3
-
 recruit_character = EST_konstantin_pats
 recruit_character = EST_johan_laidoner
 recruit_character = EST_juhan_tuuling
@@ -28,7 +26,6 @@ recruit_character = EST_harald_laksberg
 recruit_character = EST_konstantin_treffner
 recruit_character = EST_otto_strandman
 recruit_character = EST_peeter_pold
-
 add_ideas = {
 	limited_conscription
 	EST_ernst_podder_army_chief
@@ -45,13 +42,13 @@ add_ideas = {
 }
 
 set_convoys = 5
-
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1932.5.21"
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
 	democratic = 20
 	fascism = 15

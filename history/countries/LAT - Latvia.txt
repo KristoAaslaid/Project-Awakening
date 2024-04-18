@@ -1,7 +1,6 @@
-capital = 1
-
+capital = 12
+oob = "LAT"
 recruit_character = LAT_karlis_ulmanis
-
 add_ideas = {
 	latviamilitary
 }
@@ -12,6 +11,7 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
 	democratic = 20
 	fascism = 15

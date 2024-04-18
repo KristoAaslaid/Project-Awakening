@@ -1,7 +1,13 @@
-capital = 1
+capital = 24
+oob = "BAL"
+if = {
+	limit = {
+		has_dlc = "Arms Against Tyranny"
+	}
+	store_core_states_on_game_start = yes
+}
 
 recruit_character = BAL_rudiger_von_der_goltz
-
 add_ideas = {
 	BAL_landeswehr
 }
@@ -12,6 +18,7 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
 	democratic = 20
 	fascism = 15
