@@ -1,0 +1,22 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_proj_divmanagment_1"
+        texturefile = "gfx/tutorialpictures/divmanagment1.dds"
+    }
+
+    spriteType = {
+        name = "GFX_proj_divmanagment_2"
+        texturefile = "gfx/tutorialpictures/divmanagment2.dds"
+    }
+
+    spriteType = {
+        name = "GFX_proj_divmanagment_3"
+        texturefile = "gfx/tutorialpictures/divmanagment3.dds"
+    }
+
+    spriteType = {
+        name = "GFX_proj_divmanagment_4"
+        texturefile = "gfx/tutorialpictures/divmanagment4.dds"
+    }
+}
+

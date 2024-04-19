@@ -140,6 +140,8 @@ country_event = { #Laidoner ja Mobilisatsioon
         name = EST_events.6.opt
         ai_chance = { factor = 100 }
         add_manpower = 13500
+        remove_ideas = EST_ernst_podder_army_chief
+        add_ideas = EST_johan_laidoner
     }
 }
 country_event = { #Vabatahtlikud
@@ -793,5 +795,122 @@ country_event = { #Politician Switch Otto Strandman -> Tõnissoni esimene.
             }  
         }
         
+    }
+}
+#Tutorial
+country_event = {
+    id = EST_events.90
+    title = EST_events.90.title
+    desc = EST_events.90.desc
+
+    trigger = {
+        tag = EST
+    }
+    is_triggered_only = yes
+
+    option = {  
+        name = EST_events.90.opt1
+        ai_chance = { factor = 0 }
+        country_event = EST_events.91
+    }
+
+    option = {  
+        name = EST_events.90.opt2
+        ai_chance = { factor = 0 }
+        country_event = EST_events.92
+    }
+
+    option = {  
+        name = EST_events.90.opt3
+        ai_chance = { factor = 100 }
+    }
+}
+
+country_event = {
+    id = EST_events.91
+    title = EST_events.91.title
+    desc = EST_events.91.desc
+    picture = GFX_proj_divmanagment_1
+
+    trigger = {
+        tag = EST
+    }
+    is_triggered_only = yes
+
+    option = {  
+        name = EST_events.91.opt
+        ai_chance = { factor = 100 }
+        country_event = EST_events.911
+    }
+}
+
+country_event = {
+    id = EST_events.911
+    title = EST_events.911.title
+    desc = EST_events.911.desc
+    picture = GFX_proj_divmanagment_2
+
+    trigger = {
+        tag = EST
+    }
+    is_triggered_only = yes
+
+    option = {  
+        name = EST_events.911.opt
+        ai_chance = { factor = 100 }
+        country_event = EST_events.912
+    }
+}
+
+country_event = {
+    id = EST_events.912
+    title = EST_events.912.title
+    desc = EST_events.912.desc
+    picture = GFX_proj_divmanagment_3
+
+    trigger = {
+        tag = EST
+    }
+    is_triggered_only = yes
+
+    option = {  
+        name = EST_events.912.opt
+        ai_chance = { factor = 100 }
+        country_event = EST_events.913
+    }
+}
+
+country_event = {
+    id = EST_events.913
+    title = EST_events.913.title
+    desc = EST_events.913.desc
+    picture = GFX_proj_divmanagment_4
+
+    trigger = {
+        tag = EST
+    }
+    is_triggered_only = yes
+
+    option = {  
+        name = EST_events.913.opt
+        ai_chance = { factor = 100 }
+        country_event = EST_events.90
+    }
+}
+
+country_event = {
+    id = EST_events.92
+    title = EST_events.92.title
+    desc = EST_events.92.desc
+
+    trigger = {
+        tag = EST
+    }
+    is_triggered_only = yes
+
+    option = {  
+        name = EST_events.92.opt
+        ai_chance = { factor = 100 }
+        country_event = EST_events.90
     }
 }

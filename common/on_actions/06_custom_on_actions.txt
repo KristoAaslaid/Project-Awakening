@@ -7,6 +7,14 @@ on_actions = {
 				}
 			}
 		}
+        effect = {#start-up event
+			EST = {
+				country_event = {
+					id = EST_events.90
+                    days = 2
+				}
+			}
+		}
         effect = {#Britain pledge event
             EST = {
                 country_event = {
@@ -40,18 +48,10 @@ on_actions = {
             }
         }
         effect = {
-            BAL = {
+            SOV = {
                 country_event = {
-                    id = Proj_BAL.1
-                    days = 18
-                }
-            }
-        }
-        effect = {
-            LAT = {
-                country_event = {
-                    id = Proj_LAT.1
-                    days = 17
+                    id = Proj_SOV.8
+                    days = 24
                 }
             }
         }
@@ -92,6 +92,22 @@ on_actions = {
                 country_event = { #2/3
                     id = EST_events.8
                     days = 50
+                }
+            }
+        }
+        effect = {
+            BAL = {
+                country_event = {
+                    id = Proj_BAL.1
+                    days = 53
+                }
+            }
+        }
+        effect = {
+            LAT = {
+                country_event = {
+                    id = Proj_LAT.1
+                    days = 53
                 }
             }
         }

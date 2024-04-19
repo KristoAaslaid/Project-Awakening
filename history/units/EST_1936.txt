@@ -32,7 +32,7 @@
 
 division_template = {
 	name = "Ratsavägi"	# Cavalry
-	division_names_group = EST_INF_01
+	division_names_group = EST_CAV_01
 	# Note: Divisions were nowhere near full strength until mobilized
 	regiments = {
 		cavalry = {
@@ -66,7 +66,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 2184
+		location = 671
 		division_template = "Jalaväediviis"
 		force_equipment_variants = {
 			infantry_equipment_0 = {
@@ -82,7 +82,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 1031
+		location = 2130
 		division_template = "Jalaväediviis"
 		force_equipment_variants = {
 			infantry_equipment_0 = {
@@ -98,7 +98,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 3
 		}
-		location = 356
+		location = 1502
 		division_template = "Jalaväediviis"
 		force_equipment_variants = {
 			infantry_equipment_0 = {
@@ -111,24 +111,9 @@ units = {
 	division = {
 		division_name = {
 			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 2181
-		division_template = "Ratsavägi"
-		force_equipment_variants = {
-			infantry_equipment_0 = {
-				owner = "EST"
-			}
-		}
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.4
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 1888
+		location = 2145
 		division_template = "Ratsavägi"
 		force_equipment_variants = {
 			infantry_equipment_0 = {
@@ -137,66 +122,6 @@ units = {
 		}
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.4
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 3
-		}
-		location = 440
-		division_template = "Ratsavägi"
-		force_equipment_variants = {
-			infantry_equipment_0 = {
-				owner = "EST"
-			}
-		}
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.4
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
-		location = 38
-		division_template = "Ratsavägi"
-		force_equipment_variants = {
-			infantry_equipment_0 = {
-				owner = "EST"
-			}
-		}
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.4
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 5
-		}
-		location = 579
-		division_template = "Ratsavägi"
-		force_equipment_variants = {
-			infantry_equipment_0 = {
-				owner = "EST"
-			}
-		}
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.4
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 6
-		}
-		location = 747
-		division_template = "Ratsavägi"
-		force_equipment_variants = {
-			infantry_equipment_0 = {
-				owner = "EST"
-			}
-		}
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.2
 	}
 	##### No Naval OOB -- 2 SSs in 1937 #####
 }
