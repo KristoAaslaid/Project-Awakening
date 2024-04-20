@@ -3,20 +3,64 @@ spriteTypes = {
         name = "GFX_proj_divmanagment_1"
         texturefile = "gfx/tutorialpictures/divmanagment1.dds"
     }
-
     spriteType = {
         name = "GFX_proj_divmanagment_2"
         texturefile = "gfx/tutorialpictures/divmanagment2.dds"
     }
-
     spriteType = {
         name = "GFX_proj_divmanagment_3"
         texturefile = "gfx/tutorialpictures/divmanagment3.dds"
     }
-
     spriteType = {
         name = "GFX_proj_divmanagment_4"
         texturefile = "gfx/tutorialpictures/divmanagment4.dds"
+    }
+
+    spriteType = {
+        name = "GFX_proj_construction_1"
+        texturefile = "gfx/tutorialpictures/construction1.dds"
+    }
+    spriteType = {
+        name = "GFX_proj_construction_2"
+        texturefile = "gfx/tutorialpictures/construction2.dds"
+    }
+    spriteType = {
+        name = "GFX_proj_construction_3"
+        texturefile = "gfx/tutorialpictures/construction3.dds"
+    }
+
+    spriteType = {
+        name = "GFX_proj_divleadership_1"
+        texturefile = "gfx/tutorialpictures/divleadership1.dds"
+    }
+    spriteType = {
+        name = "GFX_proj_divleadership_2"
+        texturefile = "gfx/tutorialpictures/divleadership2.dds"
+    }
+    spriteType = {
+        name = "GFX_proj_divleadership_3"
+        texturefile = "gfx/tutorialpictures/divleadership3.dds"
+    }
+    spriteType = {
+        name = "GFX_proj_divleadership_4"
+        texturefile = "gfx/tutorialpictures/divleadership4.dds"
+    }
+    spriteType = {
+        name = "GFX_proj_divleadership_5"
+        texturefile = "gfx/tutorialpictures/divleadership5.dds"
+    }
+
+    spriteType = {
+        name = "GFX_proj_research_1"
+        texturefile = "gfx/tutorialpictures/research1.dds"
+    }
+    spriteType = {
+        name = "GFX_proj_research_2"
+        texturefile = "gfx/tutorialpictures/research2.dds"
+    }
+    spriteType = {
+        name = "GFX_proj_research_3"
+        texturefile = "gfx/tutorialpictures/research3.dds"
     }
 }
 

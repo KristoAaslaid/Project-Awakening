@@ -798,7 +798,7 @@ country_event = { #Politician Switch Otto Strandman -> Tõnissoni esimene.
     }
 }
 #Tutorial
-country_event = {
+country_event = { #Page 1
     id = EST_events.90
     title = EST_events.90.title
     desc = EST_events.90.desc
@@ -808,25 +808,65 @@ country_event = {
     }
     is_triggered_only = yes
 
-    option = {  
+    option = {  #DivManagment1
         name = EST_events.90.opt1
         ai_chance = { factor = 0 }
         country_event = EST_events.91
     }
 
-    option = {  
+    option = {  #DivLeadership1
         name = EST_events.90.opt2
         ai_chance = { factor = 0 }
         country_event = EST_events.92
     }
 
-    option = {  
+    option = {  #ToPage2
         name = EST_events.90.opt3
+        ai_chance = { factor = 0 }
+        country_event = EST_events.902
+    }
+
+    option = {  #End
+        name = EST_events.90.opt4
         ai_chance = { factor = 100 }
     }
 }
 
-country_event = {
+country_event = { #Page 2
+    id = EST_events.902
+    title = EST_events.902.title
+    desc = EST_events.902.desc
+
+    trigger = {
+        tag = EST
+    }
+    is_triggered_only = yes
+
+    option = {  #Construction1
+        name = EST_events.902.opt1
+        ai_chance = { factor = 0 }
+        country_event = EST_events.93
+    }
+
+    option = {  #Research1
+        name = EST_events.902.opt2
+        ai_chance = { factor = 0 }
+        country_event = EST_events.94
+    }
+
+    option = {  #BackToPage1
+        name = EST_events.902.opt3
+        ai_chance = { factor = 0 }
+        country_event = EST_events.90
+    }
+
+    option = {  #End
+        name = EST_events.902.opt4
+        ai_chance = { factor = 100 }
+    }
+}
+
+country_event = { #DivMan1
     id = EST_events.91
     title = EST_events.91.title
     desc = EST_events.91.desc
@@ -844,7 +884,7 @@ country_event = {
     }
 }
 
-country_event = {
+country_event = { #DivMan2
     id = EST_events.911
     title = EST_events.911.title
     desc = EST_events.911.desc
@@ -862,7 +902,7 @@ country_event = {
     }
 }
 
-country_event = {
+country_event = { #DivMan3
     id = EST_events.912
     title = EST_events.912.title
     desc = EST_events.912.desc
@@ -880,7 +920,7 @@ country_event = {
     }
 }
 
-country_event = {
+country_event = { #DivMan4
     id = EST_events.913
     title = EST_events.913.title
     desc = EST_events.913.desc
@@ -898,10 +938,11 @@ country_event = {
     }
 }
 
-country_event = {
+country_event = { #DivLeadership1
     id = EST_events.92
     title = EST_events.92.title
     desc = EST_events.92.desc
+    picture = GFX_proj_divleadership_1
 
     trigger = {
         tag = EST
@@ -911,6 +952,186 @@ country_event = {
     option = {  
         name = EST_events.92.opt
         ai_chance = { factor = 100 }
+        country_event = EST_events.921
+    }
+}
+
+country_event = { #DivLeadership2
+    id = EST_events.921
+    title = EST_events.921.title
+    desc = EST_events.921.desc
+    picture = GFX_proj_divleadership_2
+
+    trigger = {
+        tag = EST
+    }
+    is_triggered_only = yes
+
+    option = {  
+        name = EST_events.921.opt
+        ai_chance = { factor = 100 }
+        country_event = EST_events.922
+    }
+}
+
+country_event = { #DivLeadership3
+    id = EST_events.922
+    title = EST_events.922.title
+    desc = EST_events.922.desc
+    picture = GFX_proj_divleadership_3
+
+    trigger = {
+        tag = EST
+    }
+    is_triggered_only = yes
+
+    option = {  
+        name = EST_events.922.opt
+        ai_chance = { factor = 100 }
+        country_event = EST_events.923
+    }
+}
+
+country_event = { #DivLeadership4
+    id = EST_events.923
+    title = EST_events.923.title
+    desc = EST_events.923.desc
+    picture = GFX_proj_divleadership_4
+
+    trigger = {
+        tag = EST
+    }
+    is_triggered_only = yes
+
+    option = {  
+        name = EST_events.923.opt
+        ai_chance = { factor = 100 }
+        country_event = EST_events.924
+    }
+}
+
+country_event = { #DivLeadership5
+    id = EST_events.924
+    title = EST_events.924.title
+    desc = EST_events.924.desc
+    picture = GFX_proj_divleadership_5
+
+    trigger = {
+        tag = EST
+    }
+    is_triggered_only = yes
+
+    option = {  
+        name = EST_events.924.opt
+        ai_chance = { factor = 100 }
         country_event = EST_events.90
+    }
+}
+
+country_event = { #Construction1
+    id = EST_events.93
+    title = EST_events.93.title
+    desc = EST_events.93.desc
+    picture = GFX_proj_construction_1
+
+    trigger = {
+        tag = EST
+    }
+    is_triggered_only = yes
+
+    option = {  
+        name = EST_events.93.opt
+        ai_chance = { factor = 100 }
+        country_event = EST_events.931
+    }
+}
+
+country_event = { #Construction2
+    id = EST_events.931
+    title = EST_events.931.title
+    desc = EST_events.931.desc
+    picture = GFX_proj_construction_2
+
+    trigger = {
+        tag = EST
+    }
+    is_triggered_only = yes
+
+    option = {  
+        name = EST_events.931.opt
+        ai_chance = { factor = 100 }
+        country_event = EST_events.932
+    }
+}
+
+country_event = { #Construction3
+    id = EST_events.932
+    title = EST_events.932.title
+    desc = EST_events.932.desc
+    picture = GFX_proj_construction_3
+
+    trigger = {
+        tag = EST
+    }
+    is_triggered_only = yes
+
+    option = {  
+        name = EST_events.932.opt
+        ai_chance = { factor = 100 }
+        country_event = EST_events.902
+    }
+}
+
+country_event = { #Research1
+    id = EST_events.94
+    title = EST_events.94.title
+    desc = EST_events.94.desc
+    picture = GFX_proj_research_1
+
+    trigger = {
+        tag = EST
+    }
+    is_triggered_only = yes
+
+    option = {  
+        name = EST_events.94.opt
+        ai_chance = { factor = 100 }
+        country_event = EST_events.941
+    }
+}
+
+country_event = { #Research2
+    id = EST_events.941
+    title = EST_events.941.title
+    desc = EST_events.941.desc
+    picture = GFX_proj_research_2
+
+    trigger = {
+        tag = EST
+    }
+    is_triggered_only = yes
+
+    option = {  
+        name = EST_events.941.opt
+        ai_chance = { factor = 100 }
+        country_event = EST_events.942
+    }
+}
+
+country_event = { #Research3
+    id = EST_events.942
+    title = EST_events.942.title
+    desc = EST_events.942.desc
+    picture = GFX_proj_research_3
+
+    trigger = {
+        tag = EST
+    }
+    is_triggered_only = yes
+
+    option = {  
+        name = EST_events.942.opt
+        ai_chance = { factor = 100 }
+        country_event = EST_events.902
     }
 }
