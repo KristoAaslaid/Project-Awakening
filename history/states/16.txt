@@ -42,5 +42,9 @@ state = {
 		owner = BAL
 		add_core_of = BAL
 		add_core_of = LAT
+		victory_points = {
+			993
+			10
+		}
 	}
 }

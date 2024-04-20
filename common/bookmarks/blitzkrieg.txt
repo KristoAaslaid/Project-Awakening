@@ -1,26 +1,21 @@
 bookmarks = {
 	bookmark = {
-		name = "BLITZKRIEG_NAME"
-		desc = "BLITZKRIEG_DESC"
+		name = "INDEPENDENCEWAR_NAME"
+		desc = "INDEPENDENCEWAR_DESC"
 		date = 1918.11.11.12
 		picture = "GFX_select_date_1939"
 		default_country = "EST"
 		default = yes
-	
-
-		
-		"EST"={
-			history = "EST_BLITZKRIEG_DESC"
+		"EST" = {
+			history = "EST_DESC"
 			ideology = neutrality
 			ideas = {
 			}
 			focuses = {
 			}
 		}
-		
-
 		effect = {
-			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			randomize_weather = 12345			# <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
 		}
 	}

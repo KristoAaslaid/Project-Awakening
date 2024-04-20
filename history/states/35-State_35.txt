@@ -36,10 +36,14 @@ state = {
 		2107
 	}
 	buildings_max_level_factor = 1
-	manpower = 1317885 
+	manpower = 1317885
 	state_category = town
 	history = {
 		owner = SOV
 		add_core_of = SOV
+		victory_points = {
+			460
+			50
+		}
 	}
 }
