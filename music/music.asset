@@ -2,7 +2,7 @@
 # MAIN THEME
 music = {
 	name = "maintheme"
-	file = "hetkennelahingut.ogg"
+	file = "marss_kodumaa.ogg"
 	volume = 0.65
 }
 
@@ -165,7 +165,7 @@ music = {
 
 music = {
 	name = "pa_song_marss_kodumaa"
-	file = "marss_kodumaa.ogg"
+	file = "hetkennelahingut.ogg"
 	volume = 0.65
 }
 
